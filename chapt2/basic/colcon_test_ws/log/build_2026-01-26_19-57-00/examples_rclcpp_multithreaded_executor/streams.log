@@ -1,0 +1,51 @@
+[1.065s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[46.842s] -- The C compiler identification is GNU 11.4.0
+[46.842s] -- The CXX compiler identification is GNU 11.4.0
+[46.842s] -- Detecting C compiler ABI info
+[46.842s] -- Detecting C compiler ABI info - done
+[46.843s] -- Check for working C compiler: /usr/bin/cc - skipped
+[46.844s] -- Detecting C compile features
+[46.849s] -- Detecting C compile features - done
+[46.850s] -- Detecting CXX compiler ABI info
+[46.866s] -- Detecting CXX compiler ABI info - done
+[46.920s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[46.965s] -- Detecting CXX compile features
+[47.004s] -- Detecting CXX compile features - done
+[47.075s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[47.100s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[47.108s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[47.108s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[47.109s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[47.133s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[47.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[47.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.223s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[47.228s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[47.236s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[47.237s] -- Found FastRTPS: /opt/ros/humble/include  
+[47.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[47.258s] -- Looking for pthread.h
+[47.259s] -- Looking for pthread.h - found
+[47.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[47.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[47.272s] -- Found Threads: TRUE  
+[47.741s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[49.767s] -- Added test 'copyright' to check source files copyright and LICENSE
+[49.847s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[49.872s] -- Configured cppcheck include dirs: 
+[49.875s] -- Configured cppcheck exclude dirs and/or files: 
+[49.917s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[49.925s] -- Configured cpplint exclude dirs and/or files: 
+[49.937s] -- Added test 'lint_cmake' to check CMake code style
+[49.979s] -- Added test 'uncrustify' to check C / C++ code style
+[49.990s] -- Configured uncrustify additional arguments: 
+[50.002s] -- Added test 'xmllint' to check XML markup files
+[50.045s] -- Configuring done
+[50.701s] -- Generating done
+[50.789s] -- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_multithreaded_executor
+[50.995s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_multithreaded_executor
+[51.151s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_multithreaded_executor -- -j12 -l12
+[139.962s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[139.968s] gmake[2]: *** [CMakeFiles/multithreaded_executor.dir/build.make:76: CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o] 中断
+[139.971s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/multithreaded_executor.dir/all] 中断
+[139.974s] gmake: *** [Makefile:146: all] 中断

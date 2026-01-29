@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.012536] (example_cpp) JobQueued: {'identifier': 'example_cpp', 'dependencies': OrderedDict()}
+[0.014136] (example_py) JobQueued: {'identifier': 'example_py', 'dependencies': OrderedDict()}
+[0.014510] (example_cpp) JobStarted: {'identifier': 'example_cpp'}
+[0.076530] (example_py) JobStarted: {'identifier': 'example_py'}
+[0.104266] (-) TimerEvent: {}
+[0.170878] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'cmake'}
+[0.171179] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'build'}
+[0.176981] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp', '--', '-j12', '-l12'], 'cwd': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 59855 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eba041cc-da31-4099-841e-1e91563c8f05.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4468abdbef.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp'), ('SSH_CONNECTION', '192.168.205.1 59855 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp:/opt/ros/humble')]), 'shell': False}
+[0.242130] (-) TimerEvent: {}
+[0.344406] (-) TimerEvent: {}
+[0.447968] (-) TimerEvent: {}
+[0.552899] (-) TimerEvent: {}
+[0.610479] (example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.656254] (-) TimerEvent: {}
+[0.757954] (-) TimerEvent: {}
+[0.860211] (-) TimerEvent: {}
+[0.963499] (-) TimerEvent: {}
+[1.067107] (-) TimerEvent: {}
+[1.170536] (-) TimerEvent: {}
+[1.274330] (-) TimerEvent: {}
+[1.378445] (-) TimerEvent: {}
+[1.483136] (-) TimerEvent: {}
+[1.586085] (-) TimerEvent: {}
+[1.688267] (-) TimerEvent: {}
+[1.759437] (example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.789153] (-) TimerEvent: {}
+[1.892415] (-) TimerEvent: {}
+[1.996092] (-) TimerEvent: {}
+[2.020153] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.057258] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.099243] (-) TimerEvent: {}
+[2.116053] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.200545] (-) TimerEvent: {}
+[2.227656] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.304211] (-) TimerEvent: {}
+[2.375061] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.407891] (-) TimerEvent: {}
+[2.508974] (-) TimerEvent: {}
+[2.611647] (-) TimerEvent: {}
+[2.714387] (example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.717119] (-) TimerEvent: {}
+[2.735983] (example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.818134] (-) TimerEvent: {}
+[2.920564] (-) TimerEvent: {}
+[3.023517] (-) TimerEvent: {}
+[3.126424] (-) TimerEvent: {}
+[3.229326] (-) TimerEvent: {}
+[3.332100] (-) TimerEvent: {}
+[3.433199] (-) TimerEvent: {}
+[3.535307] (-) TimerEvent: {}
+[3.638415] (-) TimerEvent: {}
+[3.689530] (example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.739932] (-) TimerEvent: {}
+[3.842034] (-) TimerEvent: {}
+[3.943215] (-) TimerEvent: {}
+[4.046091] (-) TimerEvent: {}
+[4.088204] (example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.147395] (-) TimerEvent: {}
+[4.250712] (-) TimerEvent: {}
+[4.353435] (-) TimerEvent: {}
+[4.456249] (-) TimerEvent: {}
+[4.558240] (-) TimerEvent: {}
+[4.661049] (-) TimerEvent: {}
+[4.762514] (-) TimerEvent: {}
+[4.796932] (example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.797550] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.798036] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.807593] (example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.825520] (example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.827654] (example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.831474] (example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.843130] (example_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.864070] (-) TimerEvent: {}
+[4.965447] (-) TimerEvent: {}
+[5.022884] (example_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[5.067608] (-) TimerEvent: {}
+[5.075218] (example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp\n'}
+[5.170138] (-) TimerEvent: {}
+[5.278223] (-) TimerEvent: {}
+[5.380410] (-) TimerEvent: {}
+[5.483416] (-) TimerEvent: {}
+[5.574089] (example_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node_01\x1b[0m\n'}
+[5.587502] (-) TimerEvent: {}
+[5.691268] (-) TimerEvent: {}
+[5.793376] (-) TimerEvent: {}
+[5.895515] (-) TimerEvent: {}
+[6.003209] (-) TimerEvent: {}
+[6.025012] (example_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/example_py', 'build', '--build-base', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build', 'install', '--record', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/src/example_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'andinm', 'SSH_CLIENT': '192.168.205.1 59855 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/andinm', 'OLDPWD': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/src', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-eba041cc-da31-4099-841e-1e91563c8f05.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'andinm', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4468abdbef.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py', 'SSH_CONNECTION': '192.168.205.1 59855 192.168.205.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp'}, 'shell': False}
+[6.033375] (example_cpp) StdoutLine: {'line': b'[100%] Built target node_01\n'}
+[6.105127] (-) TimerEvent: {}
+[6.206970] (-) TimerEvent: {}
+[6.230427] (example_cpp) CommandEnded: {'returncode': 0}
+[6.249274] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'install'}
+[6.313084] (-) TimerEvent: {}
+[6.423072] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp'], 'cwd': '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 59855 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eba041cc-da31-4099-841e-1e91563c8f05.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4468abdbef.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp'), ('SSH_CONNECTION', '192.168.205.1 59855 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp:/opt/ros/humble')]), 'shell': False}
+[6.428076] (-) TimerEvent: {}
+[6.534580] (-) TimerEvent: {}
+[6.631155] (example_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.634260] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp\n'}
+[6.637037] (-) TimerEvent: {}
+[6.659169] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp\n'}
+[6.666994] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh\n'}
+[6.673587] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv\n'}
+[6.676517] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh\n'}
+[6.678081] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv\n'}
+[6.679384] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash\n'}
+[6.679946] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh\n'}
+[6.686391] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh\n'}
+[6.687555] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv\n'}
+[6.690613] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv\n'}
+[6.691489] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp\n'}
+[6.692126] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake\n'}
+[6.694392] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake\n'}
+[6.695331] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/package.xml\n'}
+[6.702704] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/lib/example_cpp/node_01\n'}
+[6.725912] (example_cpp) CommandEnded: {'returncode': 0}
+[6.739221] (-) TimerEvent: {}
+[6.844367] (-) TimerEvent: {}
+[6.934021] (example_cpp) JobEnded: {'identifier': 'example_cpp', 'rc': 0}
+[6.945529] (-) TimerEvent: {}
+[7.048230] (-) TimerEvent: {}
+[7.150600] (-) TimerEvent: {}
+[7.253659] (-) TimerEvent: {}
+[7.356463] (-) TimerEvent: {}
+[7.459544] (-) TimerEvent: {}
+[7.560975] (-) TimerEvent: {}
+[7.664470] (-) TimerEvent: {}
+[7.767972] (-) TimerEvent: {}
+[7.869377] (-) TimerEvent: {}
+[7.973270] (-) TimerEvent: {}
+[8.075297] (-) TimerEvent: {}
+[8.178156] (-) TimerEvent: {}
+[8.281515] (-) TimerEvent: {}
+[8.385582] (-) TimerEvent: {}
+[8.489166] (-) TimerEvent: {}
+[8.592239] (-) TimerEvent: {}
+[8.614353] (example_py) StdoutLine: {'line': b'running egg_info\n'}
+[8.620676] (example_py) StdoutLine: {'line': b'creating ../../build/example_py/example_py.egg-info\n'}
+[8.622419] (example_py) StdoutLine: {'line': b'writing ../../build/example_py/example_py.egg-info/PKG-INFO\n'}
+[8.625579] (example_py) StdoutLine: {'line': b'writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt\n'}
+[8.626672] (example_py) StdoutLine: {'line': b'writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt\n'}
+[8.628016] (example_py) StdoutLine: {'line': b'writing requirements to ../../build/example_py/example_py.egg-info/requires.txt\n'}
+[8.631346] (example_py) StdoutLine: {'line': b'writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt\n'}
+[8.632363] (example_py) StdoutLine: {'line': b"writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'\n"}
+[8.647136] (example_py) StdoutLine: {'line': b"reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'\n"}
+[8.655442] (example_py) StdoutLine: {'line': b"writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'\n"}
+[8.657166] (example_py) StdoutLine: {'line': b'running build\n'}
+[8.658359] (example_py) StdoutLine: {'line': b'running build_py\n'}
+[8.662213] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build\n'}
+[8.665648] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib\n'}
+[8.666982] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py\n'}
+[8.668187] (example_py) StdoutLine: {'line': b'copying example_py/__init__.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py\n'}
+[8.669630] (example_py) StdoutLine: {'line': b'copying example_py/node_02.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py\n'}
+[8.672556] (example_py) StdoutLine: {'line': b'running install\n'}
+[8.673996] (example_py) StdoutLine: {'line': b'running install_lib\n'}
+[8.677525] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py\n'}
+[8.680198] (example_py) StdoutLine: {'line': b'copying /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py/__init__.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py\n'}
+[8.682334] (example_py) StdoutLine: {'line': b'copying /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py/node_02.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py\n'}
+[8.686819] (example_py) StdoutLine: {'line': b'byte-compiling /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/__init__.py to __init__.cpython-310.pyc\n'}
+[8.690093] (example_py) StdoutLine: {'line': b'byte-compiling /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc\n'}
+[8.698394] (example_py) StdoutLine: {'line': b'running install_data\n'}
+[8.699562] (-) TimerEvent: {}
+[8.701408] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index\n'}
+[8.704002] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index/resource_index\n'}
+[8.707267] (example_py) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index/resource_index/packages\n'}
+[8.709030] (example_py) StdoutLine: {'line': b'copying resource/example_py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index/resource_index/packages\n'}
+[8.710151] (example_py) StdoutLine: {'line': b'copying package.xml -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/example_py\n'}
+[8.711399] (example_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.718293] (example_py) StdoutLine: {'line': b'Copying ../../build/example_py/example_py.egg-info to /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info\n'}
+[8.735054] (example_py) StdoutLine: {'line': b'running install_scripts\n'}
+[8.800325] (-) TimerEvent: {}
+[8.856094] (example_py) StdoutLine: {'line': b'Installing node_02 script to /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/example_py\n'}
+[8.856586] (example_py) StdoutLine: {'line': b"writing list of installed files to '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/install.log'\n"}
+[8.902538] (-) TimerEvent: {}
+[8.959840] (example_py) CommandEnded: {'returncode': 0}
+[9.017415] (-) TimerEvent: {}
+[9.051870] (example_py) JobEnded: {'identifier': 'example_py', 'rc': 0}
+[9.086133] (-) EventReactorShutdown: {}

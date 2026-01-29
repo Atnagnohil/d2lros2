@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.8)
+project(example_cpp)  # 功能包的名称
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
+add_executable(node_01 src/node_01.cpp)   # 生产一个可执行名叫node_01的文件，并且指明源文件的位置
+ament_target_dependencies(node_01 rclcpp)
+install(TARGETS
+  node_01
+  DESTINATION lib/${PROJECT_NAME}
+)
+add_executable(node_03 src/node_03.cpp)   # 生产一个可执行名叫node_03的文件，并且指明源文件的位置
+ament_target_dependencies(node_03 rclcpp)
+install(TARGETS
+  node_03
+  DESTINATION lib/${PROJECT_NAME}
+)

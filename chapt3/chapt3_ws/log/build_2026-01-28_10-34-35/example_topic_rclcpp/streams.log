@@ -1,0 +1,28 @@
+[3.102s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12
+[3.907s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[4.156s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[4.369s] [ 75%] Built target topic_subscribe_01
+[48.701s] [100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[51.977s] [100%] Built target topic_publisher_01
+[52.198s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12
+[52.222s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[52.379s] -- Install configuration: ""
+[52.382s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[52.388s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[52.392s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[52.393s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[52.394s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[52.395s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[52.397s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[52.400s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[52.401s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[52.403s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[52.405s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[52.406s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[52.407s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[52.409s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[52.410s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[52.415s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[52.467s] -- Set runtime path of "/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""
+[52.479s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+[52.517s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp

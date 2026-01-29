@@ -1,0 +1,10 @@
+[01m[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_robot_01.cpp:116:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+  116 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_robot_01.cpp:118:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  118 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/example_interfaces_robot_01.dir/build.make:76：CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/example_interfaces_robot_01.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

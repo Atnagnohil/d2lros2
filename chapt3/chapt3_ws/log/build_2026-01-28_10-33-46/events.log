@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.001921] (-) JobUnselected: {'identifier': 'example_service_rclcpp'}
+[0.002771] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.003198] (-) JobUnselected: {'identifier': 'example_topic_rclpy'}
+[0.003745] (example_service_rclpy) JobQueued: {'identifier': 'example_service_rclpy', 'dependencies': OrderedDict()}
+[0.006583] (example_service_rclpy) JobStarted: {'identifier': 'example_service_rclpy'}
+[0.091531] (-) TimerEvent: {}
+[0.193647] (-) TimerEvent: {}
+[0.297007] (-) TimerEvent: {}
+[0.400740] (-) TimerEvent: {}
+[0.503565] (-) TimerEvent: {}
+[0.606146] (-) TimerEvent: {}
+[0.708842] (-) TimerEvent: {}
+[0.812949] (-) TimerEvent: {}
+[0.915498] (-) TimerEvent: {}
+[1.017854] (-) TimerEvent: {}
+[1.120950] (-) TimerEvent: {}
+[1.224948] (-) TimerEvent: {}
+[1.327927] (-) TimerEvent: {}
+[1.430820] (-) TimerEvent: {}
+[1.533512] (-) TimerEvent: {}
+[1.635994] (-) TimerEvent: {}
+[1.740468] (-) TimerEvent: {}
+[1.843817] (-) TimerEvent: {}
+[1.947850] (-) TimerEvent: {}
+[2.049938] (-) TimerEvent: {}
+[2.155115] (-) TimerEvent: {}
+[2.258868] (-) TimerEvent: {}
+[2.362806] (-) TimerEvent: {}
+[2.466903] (-) TimerEvent: {}
+[2.569102] (-) TimerEvent: {}
+[2.672552] (-) TimerEvent: {}
+[2.775157] (-) TimerEvent: {}
+[2.878105] (-) TimerEvent: {}
+[2.980941] (-) TimerEvent: {}
+[3.083852] (-) TimerEvent: {}
+[3.187618] (-) TimerEvent: {}
+[3.290092] (-) TimerEvent: {}
+[3.393042] (-) TimerEvent: {}
+[3.496734] (-) TimerEvent: {}
+[3.600204] (-) TimerEvent: {}
+[3.703981] (-) TimerEvent: {}
+[3.808070] (-) TimerEvent: {}
+[3.911981] (-) TimerEvent: {}
+[4.013665] (-) TimerEvent: {}
+[4.116004] (-) TimerEvent: {}
+[4.219168] (-) TimerEvent: {}
+[4.320798] (-) TimerEvent: {}
+[4.426124] (-) TimerEvent: {}
+[4.529585] (-) TimerEvent: {}
+[4.633725] (-) TimerEvent: {}
+[4.737018] (-) TimerEvent: {}
+[4.839981] (-) TimerEvent: {}
+[4.942664] (-) TimerEvent: {}
+[5.044927] (-) TimerEvent: {}
+[5.148529] (-) TimerEvent: {}
+[5.251061] (-) TimerEvent: {}
+[5.352945] (-) TimerEvent: {}
+[5.456081] (-) TimerEvent: {}
+[5.558861] (-) TimerEvent: {}
+[5.663678] (-) TimerEvent: {}
+[5.766902] (-) TimerEvent: {}
+[5.870112] (-) TimerEvent: {}
+[5.973005] (-) TimerEvent: {}
+[6.076721] (-) TimerEvent: {}
+[6.180989] (-) TimerEvent: {}
+[6.282614] (-) TimerEvent: {}
+[6.374002] (example_service_rclpy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/example_service_rclpy', 'build', '--build-base', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build', 'install', '--record', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'andinm', 'SSH_CLIENT': '192.168.205.1 52904 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/andinm', 'OLDPWD': '/home/andinm/d2lros2', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0d6b63fb-caa2-4350-a218-911a41100852.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'andinm', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '52', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-066b280883.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy', 'SSH_CONNECTION': '192.168.205.1 52904 192.168.205.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[6.395114] (-) TimerEvent: {}
+[6.514656] (-) TimerEvent: {}
+[6.619198] (-) TimerEvent: {}
+[6.722967] (-) TimerEvent: {}
+[6.825743] (-) TimerEvent: {}
+[6.927876] (-) TimerEvent: {}
+[7.029980] (-) TimerEvent: {}
+[7.132850] (-) TimerEvent: {}
+[7.235906] (-) TimerEvent: {}
+[7.342971] (-) TimerEvent: {}
+[7.446008] (-) TimerEvent: {}
+[7.548929] (-) TimerEvent: {}
+[7.652578] (-) TimerEvent: {}
+[7.755831] (-) TimerEvent: {}
+[7.860117] (-) TimerEvent: {}
+[7.963007] (-) TimerEvent: {}
+[8.066072] (-) TimerEvent: {}
+[8.169921] (-) TimerEvent: {}
+[8.273990] (-) TimerEvent: {}
+[8.376883] (-) TimerEvent: {}
+[8.480539] (-) TimerEvent: {}
+[8.583080] (-) TimerEvent: {}
+[8.686004] (-) TimerEvent: {}
+[8.791016] (-) TimerEvent: {}
+[8.893706] (-) TimerEvent: {}
+[8.996145] (-) TimerEvent: {}
+[9.100626] (-) TimerEvent: {}
+[9.138546] (example_service_rclpy) StdoutLine: {'line': b'running egg_info\n'}
+[9.142815] (example_service_rclpy) StdoutLine: {'line': b'writing ../../build/example_service_rclpy/example_service_rclpy.egg-info/PKG-INFO\n'}
+[9.147883] (example_service_rclpy) StdoutLine: {'line': b'writing dependency_links to ../../build/example_service_rclpy/example_service_rclpy.egg-info/dependency_links.txt\n'}
+[9.152994] (example_service_rclpy) StdoutLine: {'line': b'writing entry points to ../../build/example_service_rclpy/example_service_rclpy.egg-info/entry_points.txt\n'}
+[9.154094] (example_service_rclpy) StdoutLine: {'line': b'writing requirements to ../../build/example_service_rclpy/example_service_rclpy.egg-info/requires.txt\n'}
+[9.155038] (example_service_rclpy) StdoutLine: {'line': b'writing top-level names to ../../build/example_service_rclpy/example_service_rclpy.egg-info/top_level.txt\n'}
+[9.168029] (example_service_rclpy) StdoutLine: {'line': b"reading manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'\n"}
+[9.175702] (example_service_rclpy) StdoutLine: {'line': b"writing manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'\n"}
+[9.178734] (example_service_rclpy) StdoutLine: {'line': b'running build\n'}
+[9.179841] (example_service_rclpy) StdoutLine: {'line': b'running build_py\n'}
+[9.184888] (example_service_rclpy) StdoutLine: {'line': b'running install\n'}
+[9.187520] (example_service_rclpy) StdoutLine: {'line': b'running install_lib\n'}
+[9.199093] (example_service_rclpy) StdoutLine: {'line': b'running install_data\n'}
+[9.200838] (-) TimerEvent: {}
+[9.202653] (example_service_rclpy) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.215648] (example_service_rclpy) StdoutLine: {'line': b"removing '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.218640] (example_service_rclpy) StdoutLine: {'line': b'Copying ../../build/example_service_rclpy/example_service_rclpy.egg-info to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info\n'}
+[9.232617] (example_service_rclpy) StdoutLine: {'line': b'running install_scripts\n'}
+[9.302137] (-) TimerEvent: {}
+[9.394105] (example_service_rclpy) StdoutLine: {'line': b'Installing service_client_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy\n'}
+[9.396610] (example_service_rclpy) StdoutLine: {'line': b'Installing service_server_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy\n'}
+[9.400969] (example_service_rclpy) StdoutLine: {'line': b"writing list of installed files to '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log'\n"}
+[9.403904] (-) TimerEvent: {}
+[9.506909] (example_service_rclpy) CommandEnded: {'returncode': 0}
+[9.512903] (-) TimerEvent: {}
+[9.615638] (example_service_rclpy) JobEnded: {'identifier': 'example_service_rclpy', 'rc': 0}
+[9.631842] (-) TimerEvent: {}
+[9.633051] (-) EventReactorShutdown: {}

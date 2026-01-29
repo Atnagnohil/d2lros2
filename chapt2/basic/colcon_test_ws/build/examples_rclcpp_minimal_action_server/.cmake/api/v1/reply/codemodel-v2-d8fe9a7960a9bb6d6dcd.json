@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-127377b9b98e5607101c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_minimal_action_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server_member_functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server_member_functions-2940c933e7a7d523bb70.json",
+					"name" : "action_server_member_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server_not_composable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server_not_composable-7573dcd9e86a44c6ee88.json",
+					"name" : "action_server_not_composable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_minimal_action_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_minimal_action_server_uninstall-55b6eb5793693dc53e6d.json",
+					"name" : "examples_rclcpp_minimal_action_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f73837a3de496b65ade4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_action_server",
+		"source" : "/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

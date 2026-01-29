@@ -1,0 +1,10 @@
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/uninstall.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/examples_rclcpp_minimal_service_uninstall.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/service_main.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/test.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/edit_cache.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/rebuild_cache.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/list_install_components.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/install.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/install/local.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_service/CMakeFiles/install/strip.dir

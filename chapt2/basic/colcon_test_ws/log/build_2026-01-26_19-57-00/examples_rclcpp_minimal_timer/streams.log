@@ -1,0 +1,52 @@
+[1.009s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_minimal_timer
+[46.439s] -- The C compiler identification is GNU 11.4.0
+[46.440s] -- The CXX compiler identification is GNU 11.4.0
+[46.447s] -- Detecting C compiler ABI info
+[46.447s] -- Detecting C compiler ABI info - done
+[46.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[46.448s] -- Detecting C compile features
+[46.449s] -- Detecting C compile features - done
+[46.456s] -- Detecting CXX compiler ABI info
+[46.464s] -- Detecting CXX compiler ABI info - done
+[46.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[46.476s] -- Detecting CXX compile features
+[46.476s] -- Detecting CXX compile features - done
+[46.476s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[46.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[46.477s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[46.487s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[46.503s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[46.505s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[46.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.522s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[46.523s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[46.533s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[46.547s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[46.575s] -- Found FastRTPS: /opt/ros/humble/include  
+[46.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[46.597s] -- Looking for pthread.h
+[46.597s] -- Looking for pthread.h - found
+[46.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[46.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[46.621s] -- Found Threads: TRUE  
+[46.629s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[46.629s] -- Added test 'copyright' to check source files copyright and LICENSE
+[46.644s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[46.648s] -- Configured cppcheck include dirs: 
+[46.651s] -- Configured cppcheck exclude dirs and/or files: 
+[46.655s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[46.656s] -- Configured cpplint exclude dirs and/or files: 
+[46.658s] -- Added test 'lint_cmake' to check CMake code style
+[46.661s] -- Added test 'uncrustify' to check C / C++ code style
+[46.662s] -- Configured uncrustify additional arguments: 
+[46.665s] -- Added test 'xmllint' to check XML markup files
+[46.665s] -- Configuring done
+[47.309s] -- Generating done
+[47.394s] -- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer
+[47.821s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_minimal_timer
+[47.827s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[50.263s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[139.520s] gmake[2]: *** [CMakeFiles/timer_lambda.dir/build.make:76: CMakeFiles/timer_lambda.dir/lambda.cpp.o] 中断
+[139.713s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/timer_lambda.dir/all] 中断
+[139.750s] gmake: *** [Makefile:146: all] 中断
+[140.353s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_timer -- -j12 -l12

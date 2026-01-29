@@ -1,0 +1,35 @@
+[0.178s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12
+[0.598s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.956s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.270s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.306s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.388s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.007s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.023s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.173s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.655s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.380s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.381s] -- Configured cppcheck include dirs: 
+[5.381s] -- Configured cppcheck exclude dirs and/or files: 
+[5.395s] -- Added test 'lint_cmake' to check CMake code style
+[5.409s] -- Added test 'uncrustify' to check C / C++ code style
+[5.410s] -- Configured uncrustify additional arguments: 
+[5.411s] -- Added test 'xmllint' to check XML markup files
+[5.427s] -- Configuring done
+[5.689s] -- Generating done
+[5.743s] -- Build files have been written to: /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[6.233s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[6.435s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[6.608s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[45.970s] [ 75%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[48.330s] [100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[48.696s] [100%] Built target topic_publisher_01
+[49.512s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[49.513s] (.text+0x1b): undefined reference to `main'
+[49.543s] collect2: error: ld returned 1 exit status
+[49.558s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:159：topic_subscribe_01] 错误 1
+[49.561s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[49.563s] gmake: *** [Makefile:146：all] 错误 2
+[49.592s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12

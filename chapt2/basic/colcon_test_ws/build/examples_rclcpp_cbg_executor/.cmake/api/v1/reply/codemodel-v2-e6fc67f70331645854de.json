@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e6a3543b24fdfe36aa17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_cbg_executor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_cbg_executor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_cbg_executor_uninstall-59dd9f2b6a1958074769.json",
+					"name" : "examples_rclcpp_cbg_executor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping-221879ad07ba5a4e8883.json",
+					"name" : "ping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping_pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping_pong-4ce2371ec2ac4261f02a.json",
+					"name" : "ping_pong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pong-8cd04cdc9fc68e7842fa.json",
+					"name" : "pong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-54b8407eb848bcbcc76b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_cbg_executor",
+		"source" : "/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

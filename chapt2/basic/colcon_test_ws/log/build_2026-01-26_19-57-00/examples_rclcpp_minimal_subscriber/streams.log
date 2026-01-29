@@ -1,0 +1,53 @@
+[0.894s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_minimal_subscriber
+[45.552s] -- The C compiler identification is GNU 11.4.0
+[45.596s] -- The CXX compiler identification is GNU 11.4.0
+[45.713s] -- Detecting C compiler ABI info
+[45.713s] -- Detecting C compiler ABI info - done
+[45.714s] -- Check for working C compiler: /usr/bin/cc - skipped
+[45.723s] -- Detecting C compile features
+[45.927s] -- Detecting C compile features - done
+[45.966s] -- Detecting CXX compiler ABI info
+[45.966s] -- Detecting CXX compiler ABI info - done
+[45.966s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[45.967s] -- Detecting CXX compile features
+[46.008s] -- Detecting CXX compile features - done
+[46.021s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[46.025s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[46.026s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[46.029s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[46.050s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[46.055s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[46.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[46.062s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[46.070s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[46.073s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[46.276s] -- Found FastRTPS: /opt/ros/humble/include  
+[46.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[46.381s] -- Looking for pthread.h
+[46.393s] -- Looking for pthread.h - found
+[46.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[46.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[46.395s] -- Found Threads: TRUE  
+[46.398s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[46.399s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[46.770s] -- Added test 'copyright' to check source files copyright and LICENSE
+[46.777s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[46.778s] -- Configured cppcheck include dirs: 
+[46.780s] -- Configured cppcheck exclude dirs and/or files: 
+[46.820s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[46.831s] -- Configured cpplint exclude dirs and/or files: 
+[46.937s] -- Added test 'lint_cmake' to check CMake code style
+[47.369s] -- Added test 'uncrustify' to check C / C++ code style
+[47.369s] -- Configured uncrustify additional arguments: 
+[47.370s] -- Added test 'xmllint' to check XML markup files
+[47.401s] -- Configuring done
+[49.936s] -- Generating done
+[50.171s] -- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber
+[50.471s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_minimal_subscriber
+[50.550s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[140.047s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[140.052s] gmake[2]: *** [CMakeFiles/subscriber_lambda.dir/build.make:76: CMakeFiles/subscriber_lambda.dir/lambda.cpp.o] 中断
+[140.055s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/subscriber_lambda.dir/all] 中断
+[140.056s] gmake: *** [Makefile:146: all] 中断
+[140.072s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12

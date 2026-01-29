@@ -1,0 +1,4 @@
+[console_scripts]
+service_client_02 = example_service_rclpy.service_client_02:main
+service_server_02 = example_service_rclpy.service_server_02:main
+

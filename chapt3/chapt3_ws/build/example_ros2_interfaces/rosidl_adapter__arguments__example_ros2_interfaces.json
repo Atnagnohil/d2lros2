@@ -1,0 +1,8 @@
+{
+  "package_name": "example_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_ros2_interfaces:msg/RobotPose.msg",
+    "/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_ros2_interfaces:msg/RobotStatus.msg",
+    "/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_ros2_interfaces:srv/MoveRobot.srv"
+  ]
+}

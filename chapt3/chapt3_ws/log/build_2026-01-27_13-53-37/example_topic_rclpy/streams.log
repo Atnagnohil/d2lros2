@@ -1,0 +1,41 @@
+[6.313s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclpy': PYTHONPATH=/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_topic_rclpy build --build-base /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build install --record /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log --single-version-externally-managed install_data
+[9.115s] running egg_info
+[9.116s] creating ../../build/example_topic_rclpy/example_topic_rclpy.egg-info
+[9.119s] writing ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/PKG-INFO
+[9.125s] writing dependency_links to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/dependency_links.txt
+[9.126s] writing entry points to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/entry_points.txt
+[9.127s] writing requirements to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/requires.txt
+[9.128s] writing top-level names to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/top_level.txt
+[9.129s] writing manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'
+[9.144s] reading manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'
+[9.154s] writing manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'
+[9.163s] running build
+[9.166s] running build_py
+[9.169s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build
+[9.172s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib
+[9.174s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[9.175s] copying example_topic_rclpy/__init__.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[9.176s] copying example_topic_rclpy/topic_publisher_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[9.177s] copying example_topic_rclpy/topic_subscribe_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[9.180s] running install
+[9.181s] running install_lib
+[9.183s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[9.186s] copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/__init__.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[9.186s] copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/topic_publisher_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[9.187s] copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/topic_subscribe_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[9.191s] byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/__init__.py to __init__.cpython-310.pyc
+[9.194s] byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/topic_publisher_02.py to topic_publisher_02.cpython-310.pyc
+[9.196s] byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/topic_subscribe_02.py to topic_subscribe_02.cpython-310.pyc
+[9.199s] running install_data
+[9.199s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index
+[9.201s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index
+[9.203s] creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index/packages
+[9.204s] copying resource/example_topic_rclpy -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index/packages
+[9.205s] copying package.xml -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/example_topic_rclpy
+[9.207s] running install_egg_info
+[9.214s] Copying ../../build/example_topic_rclpy/example_topic_rclpy.egg-info to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy-0.0.0-py3.10.egg-info
+[9.226s] running install_scripts
+[9.417s] Installing topic_publisher_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/example_topic_rclpy
+[9.419s] Installing topic_subscribe_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/example_topic_rclpy
+[9.424s] writing list of installed files to '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log'
+[9.535s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclpy' returned '0': PYTHONPATH=/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_topic_rclpy build --build-base /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build install --record /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log --single-version-externally-managed install_data

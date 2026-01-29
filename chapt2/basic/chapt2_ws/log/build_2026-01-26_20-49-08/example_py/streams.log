@@ -1,0 +1,37 @@
+[5.951s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/src/example_py': PYTHONPATH=/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build install --record /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/install.log --single-version-externally-managed install_data
+[8.534s] running egg_info
+[8.540s] creating ../../build/example_py/example_py.egg-info
+[8.542s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[8.545s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[8.546s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[8.549s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[8.551s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[8.552s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[8.567s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[8.576s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[8.577s] running build
+[8.581s] running build_py
+[8.584s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build
+[8.585s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib
+[8.586s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py
+[8.588s] copying example_py/__init__.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py
+[8.591s] copying example_py/node_02.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py
+[8.592s] running install
+[8.593s] running install_lib
+[8.598s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[8.599s] copying /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py/__init__.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[8.602s] copying /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build/lib/example_py/node_02.py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py
+[8.606s] byte-compiling /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/__init__.py to __init__.cpython-310.pyc
+[8.610s] byte-compiling /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc
+[8.618s] running install_data
+[8.621s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index
+[8.623s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index/resource_index
+[8.627s] creating /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index/resource_index/packages
+[8.628s] copying resource/example_py -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/ament_index/resource_index/packages
+[8.630s] copying package.xml -> /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/share/example_py
+[8.631s] running install_egg_info
+[8.638s] Copying ../../build/example_py/example_py.egg-info to /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[8.654s] running install_scripts
+[8.775s] Installing node_02 script to /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/example_py
+[8.776s] writing list of installed files to '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/install.log'
+[8.879s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/src/example_py' returned '0': PYTHONPATH=/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/build install --record /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_py/install.log --single-version-externally-managed install_data

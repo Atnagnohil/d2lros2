@@ -1,0 +1,53 @@
+[1.490s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_wait_set
+[47.427s] -- The C compiler identification is GNU 11.4.0
+[47.428s] -- The CXX compiler identification is GNU 11.4.0
+[47.428s] -- Detecting C compiler ABI info
+[47.429s] -- Detecting C compiler ABI info - done
+[47.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[47.474s] -- Detecting C compile features
+[47.494s] -- Detecting C compile features - done
+[47.511s] -- Detecting CXX compiler ABI info
+[47.512s] -- Detecting CXX compiler ABI info - done
+[47.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[47.516s] -- Detecting CXX compile features
+[47.518s] -- Detecting CXX compile features - done
+[47.524s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[47.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[47.526s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[47.528s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[47.531s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[47.531s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[47.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[47.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.535s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[47.539s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[47.541s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[47.548s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[47.549s] -- Found FastRTPS: /opt/ros/humble/include  
+[47.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[47.555s] -- Looking for pthread.h
+[47.556s] -- Looking for pthread.h - found
+[47.558s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[47.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[47.567s] -- Found Threads: TRUE  
+[47.585s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[47.589s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[48.129s] -- Added test 'copyright' to check source files copyright and LICENSE
+[48.252s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[48.253s] -- Configured cppcheck include dirs: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/wait_set/include
+[48.253s] -- Configured cppcheck exclude dirs and/or files: 
+[48.413s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[48.416s] -- Configured cpplint exclude dirs and/or files: 
+[48.423s] -- Added test 'lint_cmake' to check CMake code style
+[48.425s] -- Added test 'uncrustify' to check C / C++ code style
+[48.435s] -- Configured uncrustify additional arguments: 
+[48.435s] -- Added test 'xmllint' to check XML markup files
+[48.467s] -- Configuring done
+[51.256s] -- Generating done
+[51.566s] -- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_wait_set
+[51.848s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_wait_set
+[51.901s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_wait_set -- -j12 -l12
+[139.897s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[139.909s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] 中断
+[139.912s] gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/talker.dir/all] 中断
+[139.913s] gmake: *** [Makefile:146: all] 中断

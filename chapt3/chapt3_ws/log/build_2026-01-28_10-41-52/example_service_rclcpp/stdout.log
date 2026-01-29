@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[ 50%] Built target service_client_01
+[100%] Built target service_server_01
+-- Install configuration: ""
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01

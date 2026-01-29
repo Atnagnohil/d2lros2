@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target example_interfaces_robot_01[0m
+[35m[1mConsolidate compiler generated dependencies of target example_interfaces_control_01[0m
+[ 50%] Built target example_interfaces_control_01
+[ 75%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o[0m
+[100%] [32m[1mLinking CXX executable example_interfaces_robot_01[0m
+[100%] Built target example_interfaces_robot_01
+-- Install configuration: ""
+-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01
+-- Set runtime path of "/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01" to ""
+-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control_01
+-- Set runtime path of "/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control_01" to ""
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_interfaces_rclcpp
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_interfaces_rclcpp
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.sh
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.dsv
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.bash
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.sh
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.zsh
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.dsv
+-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/packages/example_interfaces_rclcpp
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig.cmake
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig-version.cmake
+-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.xml

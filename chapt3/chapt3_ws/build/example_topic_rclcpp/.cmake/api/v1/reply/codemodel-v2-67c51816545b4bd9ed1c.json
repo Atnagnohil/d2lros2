@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8f1f6f3517bab796c0d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_topic_rclcpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_topic_rclcpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_topic_rclcpp_uninstall-2d9579e990b022dc3575.json",
+					"name" : "example_topic_rclcpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_publisher_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_publisher_01-5073c68d7e0c80427b51.json",
+					"name" : "topic_publisher_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_subscribe_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_subscribe_01-3bc0007c34fe606c7b58.json",
+					"name" : "topic_subscribe_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2beb7bd659bc8041a0bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp",
+		"source" : "/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

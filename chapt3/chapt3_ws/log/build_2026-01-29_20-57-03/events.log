@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (-) JobUnselected: {'identifier': 'example_ros2_interfaces'}
+[0.005340] (-) JobUnselected: {'identifier': 'example_service_rclcpp'}
+[0.005717] (-) JobUnselected: {'identifier': 'example_service_rclpy'}
+[0.005798] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.005831] (-) JobUnselected: {'identifier': 'example_topic_rclpy'}
+[0.005864] (example_interfaces_rclcpp) JobQueued: {'identifier': 'example_interfaces_rclcpp', 'dependencies': OrderedDict([('example_ros2_interfaces', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces')])}
+[0.005921] (example_interfaces_rclcpp) JobStarted: {'identifier': 'example_interfaces_rclcpp'}
+[0.057197] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'cmake'}
+[0.070679] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'build'}
+[0.071122] (example_interfaces_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp', '--', '-j12', '-l12'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 55945 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2/chapt3/chapt3_ws/src'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-39c561ef-86f8-47c3-96da-916e0fa146f9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066b280883.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp'), ('SSH_CONNECTION', '192.168.205.1 55945 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble')]), 'shell': False}
+[0.095523] (-) TimerEvent: {}
+[0.197150] (-) TimerEvent: {}
+[0.298631] (-) TimerEvent: {}
+[0.322756] (example_interfaces_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_interfaces_control_01\x1b[0m\n'}
+[0.323027] (example_interfaces_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_interfaces_robot_01\x1b[0m\n'}
+[0.398153] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o\x1b[0m\n'}
+[0.398654] (-) TimerEvent: {}
+[0.399113] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o\x1b[0m\n'}
+[0.499154] (-) TimerEvent: {}
+[0.600330] (-) TimerEvent: {}
+[0.701347] (-) TimerEvent: {}
+[0.804508] (-) TimerEvent: {}
+[0.906286] (-) TimerEvent: {}
+[1.007597] (-) TimerEvent: {}
+[1.108877] (-) TimerEvent: {}
+[1.209724] (-) TimerEvent: {}
+[1.310791] (-) TimerEvent: {}
+[1.412178] (-) TimerEvent: {}
+[1.513305] (-) TimerEvent: {}
+[1.614733] (-) TimerEvent: {}
+[1.716119] (-) TimerEvent: {}
+[1.820521] (-) TimerEvent: {}
+[1.921503] (-) TimerEvent: {}
+[2.022663] (-) TimerEvent: {}
+[2.124070] (-) TimerEvent: {}
+[2.226247] (-) TimerEvent: {}
+[2.327266] (-) TimerEvent: {}
+[2.428206] (-) TimerEvent: {}
+[2.530134] (-) TimerEvent: {}
+[2.632184] (-) TimerEvent: {}
+[2.734263] (-) TimerEvent: {}
+[2.836825] (-) TimerEvent: {}
+[2.938157] (-) TimerEvent: {}
+[3.039563] (-) TimerEvent: {}
+[3.140706] (-) TimerEvent: {}
+[3.242132] (-) TimerEvent: {}
+[3.343383] (-) TimerEvent: {}
+[3.444796] (-) TimerEvent: {}
+[3.546252] (-) TimerEvent: {}
+[3.647162] (-) TimerEvent: {}
+[3.748812] (-) TimerEvent: {}
+[3.851625] (-) TimerEvent: {}
+[3.953325] (-) TimerEvent: {}
+[4.054744] (-) TimerEvent: {}
+[4.155711] (-) TimerEvent: {}
+[4.257359] (-) TimerEvent: {}
+[4.358704] (-) TimerEvent: {}
+[4.461153] (-) TimerEvent: {}
+[4.562200] (-) TimerEvent: {}
+[4.664088] (-) TimerEvent: {}
+[4.764896] (-) TimerEvent: {}
+[4.866571] (-) TimerEvent: {}
+[4.968147] (-) TimerEvent: {}
+[5.069376] (-) TimerEvent: {}
+[5.170563] (-) TimerEvent: {}
+[5.272747] (-) TimerEvent: {}
+[5.373880] (-) TimerEvent: {}
+[5.475280] (-) TimerEvent: {}
+[5.577341] (-) TimerEvent: {}
+[5.678177] (-) TimerEvent: {}
+[5.779754] (-) TimerEvent: {}
+[5.881856] (-) TimerEvent: {}
+[5.983575] (-) TimerEvent: {}
+[6.084842] (-) TimerEvent: {}
+[6.187210] (-) TimerEvent: {}
+[6.289143] (-) TimerEvent: {}
+[6.390335] (-) TimerEvent: {}
+[6.492689] (-) TimerEvent: {}
+[6.593738] (-) TimerEvent: {}
+[6.694890] (-) TimerEvent: {}
+[6.796864] (-) TimerEvent: {}
+[6.898137] (-) TimerEvent: {}
+[6.999399] (-) TimerEvent: {}
+[7.101412] (-) TimerEvent: {}
+[7.202493] (-) TimerEvent: {}
+[7.304190] (-) TimerEvent: {}
+[7.405411] (-) TimerEvent: {}
+[7.506432] (-) TimerEvent: {}
+[7.608070] (-) TimerEvent: {}
+[7.709081] (-) TimerEvent: {}
+[7.810259] (-) TimerEvent: {}
+[7.911664] (-) TimerEvent: {}
+[8.013544] (-) TimerEvent: {}
+[8.115142] (-) TimerEvent: {}
+[8.216174] (-) TimerEvent: {}
+[8.317181] (-) TimerEvent: {}
+[8.418095] (-) TimerEvent: {}
+[8.519376] (-) TimerEvent: {}
+[8.620543] (-) TimerEvent: {}
+[8.721753] (-) TimerEvent: {}
+[8.822834] (-) TimerEvent: {}
+[8.924129] (-) TimerEvent: {}
+[9.025697] (-) TimerEvent: {}
+[9.127200] (-) TimerEvent: {}
+[9.228392] (-) TimerEvent: {}
+[9.329748] (-) TimerEvent: {}
+[9.431877] (-) TimerEvent: {}
+[9.534646] (-) TimerEvent: {}
+[9.636454] (-) TimerEvent: {}
+[9.737664] (-) TimerEvent: {}
+[9.839078] (-) TimerEvent: {}
+[9.940264] (-) TimerEvent: {}
+[10.042416] (-) TimerEvent: {}
+[10.144581] (-) TimerEvent: {}
+[10.245814] (-) TimerEvent: {}
+[10.347813] (-) TimerEvent: {}
+[10.450714] (-) TimerEvent: {}
+[10.552722] (-) TimerEvent: {}
+[10.654032] (-) TimerEvent: {}
+[10.755167] (-) TimerEvent: {}
+[10.856457] (-) TimerEvent: {}
+[10.958209] (-) TimerEvent: {}
+[11.059649] (-) TimerEvent: {}
+[11.160854] (-) TimerEvent: {}
+[11.261734] (-) TimerEvent: {}
+[11.363437] (-) TimerEvent: {}
+[11.464848] (-) TimerEvent: {}
+[11.566001] (-) TimerEvent: {}
+[11.666771] (-) TimerEvent: {}
+[11.697228] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:20:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRobot\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.698425] (example_interfaces_rclcpp) StderrLine: {'line': b'   20 |   \x1b[01;31m\x1b[KRobot\x1b[m\x1b[K robot; /*\xe5\xae\x9e\xe4\xbe\x8b\xe5\x8c\x96\xe6\x9c\xba\xe5\x99\xa8\xe4\xba\xba*/\n'}
+[11.698566] (example_interfaces_rclcpp) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.767090] (-) TimerEvent: {}
+[11.868298] (-) TimerEvent: {}
+[11.928472] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ExampleInterfacesRobot::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.928811] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:32:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.928976] (example_interfaces_rclcpp) StderrLine: {'line': b'   32 |     message.status = \x1b[01;31m\x1b[Krobot\x1b[m\x1b[K.get_status();\n'}
+[11.929108] (example_interfaces_rclcpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.968883] (-) TimerEvent: {}
+[11.975598] (example_interfaces_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.976283] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.976545] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.976724] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.976874] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.977146] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.977481] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.977588] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.977684] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.977778] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.977870] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.977985] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:1\x1b[m\x1b[K:\n'}
+[11.978082] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ExampleInterfacesRobot::handle_move_robot(std::shared_ptr<example_ros2_interfaces::srv::MoveRobot_Request_<std::allocator<void> > >, std::shared_ptr<example_ros2_interfaces::srv::MoveRobot_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.978263] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:47:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.978469] (example_interfaces_rclcpp) StderrLine: {'line': b'   47 |     RCLCPP_INFO(this->get_logger(), "\xe6\x94\xb6\xe5\x88\xb0\xe8\xaf\xb7\xe6\xb1\x82\xe7\xa7\xbb\xe5\x8a\xa8\xe8\xb7\x9d\xe7\xa6\xbb: %f,\xe5\xbd\x93\xe5\x89\x8d\xe4\xbd\x8d\xe7\xbd\xae: %f", request->distance, \x1b[01;31m\x1b[Krobot\x1b[m\x1b[K.get_current_pose());\n'}
+[11.978673] (example_interfaces_rclcpp) StderrLine: {'line': b'      |                                                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.990051] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:48:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.990633] (example_interfaces_rclcpp) StderrLine: {'line': b'   48 |     \x1b[01;31m\x1b[Krobot\x1b[m\x1b[K.move_distance(request->distance);\n'}
+[11.990897] (example_interfaces_rclcpp) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.009515] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.010245] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:56:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KExampleInterfacesControl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KExampleInterfacesRobot\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.010541] (example_interfaces_rclcpp) StderrLine: {'line': b'   56 |   auto node = std::make_shared<\x1b[01;31m\x1b[KExampleInterfacesControl\x1b[m\x1b[K>("example_interfaces_control_01");\n'}
+[12.010777] (example_interfaces_rclcpp) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.011043] (example_interfaces_rclcpp) StderrLine: {'line': b'      |                                \x1b[32m\x1b[KExampleInterfacesRobot\x1b[m\x1b[K\n'}
+[12.011272] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:56:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >(const char [30])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.011506] (example_interfaces_rclcpp) StderrLine: {'line': b'   56 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<ExampleInterfacesControl>("example_interfaces_control_01")\x1b[m\x1b[K;\n'}
+[12.011715] (example_interfaces_rclcpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.016170] (example_interfaces_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[12.016730] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[12.017764] (example_interfaces_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:1\x1b[m\x1b[K:\n'}
+[12.018099] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.018334] (example_interfaces_rclcpp) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[12.018547] (example_interfaces_rclcpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.018749] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.018985] (example_interfaces_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_control_01.cpp:56:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[12.019209] (example_interfaces_rclcpp) StderrLine: {'line': b'   56 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<ExampleInterfacesControl>("example_interfaces_control_01")\x1b[m\x1b[K;\n'}
+[12.019546] (example_interfaces_rclcpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.069150] (-) TimerEvent: {}
+[12.170012] (-) TimerEvent: {}
+[12.270856] (-) TimerEvent: {}
+[12.373394] (-) TimerEvent: {}
+[12.475474] (-) TimerEvent: {}
+[12.576821] (-) TimerEvent: {}
+[12.677571] (-) TimerEvent: {}
+[12.779291] (-) TimerEvent: {}
+[12.880512] (-) TimerEvent: {}
+[12.981690] (-) TimerEvent: {}
+[13.083709] (-) TimerEvent: {}
+[13.185176] (-) TimerEvent: {}
+[13.286714] (-) TimerEvent: {}
+[13.387732] (-) TimerEvent: {}
+[13.488700] (-) TimerEvent: {}
+[13.590655] (-) TimerEvent: {}
+[13.691656] (-) TimerEvent: {}
+[13.792547] (-) TimerEvent: {}
+[13.894160] (-) TimerEvent: {}
+[13.995421] (-) TimerEvent: {}
+[14.097466] (-) TimerEvent: {}
+[14.201186] (-) TimerEvent: {}
+[14.303698] (-) TimerEvent: {}
+[14.405121] (-) TimerEvent: {}
+[14.468998] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable example_interfaces_robot_01\x1b[0m\n'}
+[14.505516] (-) TimerEvent: {}
+[14.606489] (-) TimerEvent: {}
+[14.709364] (-) TimerEvent: {}
+[14.812164] (-) TimerEvent: {}
+[14.914146] (-) TimerEvent: {}
+[14.920786] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 75%] Built target example_interfaces_robot_01\n'}
+[15.014417] (-) TimerEvent: {}
+[15.115216] (-) TimerEvent: {}
+[15.216673] (-) TimerEvent: {}
+[15.319145] (-) TimerEvent: {}
+[15.421326] (-) TimerEvent: {}
+[15.522424] (-) TimerEvent: {}
+[15.623588] (-) TimerEvent: {}
+[15.725154] (-) TimerEvent: {}
+[15.826467] (-) TimerEvent: {}
+[15.928287] (-) TimerEvent: {}
+[16.030180] (-) TimerEvent: {}
+[16.132303] (-) TimerEvent: {}
+[16.234315] (-) TimerEvent: {}
+[16.337357] (-) TimerEvent: {}
+[16.438809] (-) TimerEvent: {}
+[16.540756] (-) TimerEvent: {}
+[16.623299] (example_interfaces_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/example_interfaces_control_01.dir/build.make:76\xef\xbc\x9aCMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[16.624775] (example_interfaces_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/example_interfaces_control_01.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[16.625584] (example_interfaces_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[16.634427] (example_interfaces_rclcpp) CommandEnded: {'returncode': 2}
+[16.641069] (-) TimerEvent: {}
+[16.677421] (example_interfaces_rclcpp) JobEnded: {'identifier': 'example_interfaces_rclcpp', 'rc': 2}
+[16.681663] (-) EventReactorShutdown: {}

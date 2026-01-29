@@ -1,0 +1,161 @@
+[1.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'example_service_rclpy']
+[1.204s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['example_service_rclpy'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7073d91b7550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7073d91b7010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7073d91b7010>>)
+[3.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.085s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andinm/d2lros2/chapt3/chapt3_ws'
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.088s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore_ament_install'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['colcon_pkg']
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'colcon_pkg'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['colcon_meta']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'colcon_meta'
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ros']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ros'
+[3.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_service_rclcpp' with type 'ros.ament_cmake' and name 'example_service_rclcpp'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extension 'ignore'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extension 'ignore_ament_install'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extensions ['colcon_pkg']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extension 'colcon_pkg'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extensions ['colcon_meta']
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extension 'colcon_meta'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extensions ['ros']
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclpy) by extension 'ros'
+[3.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_service_rclpy' with type 'ros.ament_python' and name 'example_service_rclpy'
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'ignore'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'ignore_ament_install'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['colcon_pkg']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'colcon_pkg'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['colcon_meta']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'colcon_meta'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['ros']
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'ros'
+[3.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_topic_rclcpp' with type 'ros.ament_cmake' and name 'example_topic_rclcpp'
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extension 'ignore'
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extension 'ignore_ament_install'
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extensions ['colcon_pkg']
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extension 'colcon_pkg'
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extensions ['colcon_meta']
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extension 'colcon_meta'
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extensions ['ros']
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclpy) by extension 'ros'
+[3.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_topic_rclpy' with type 'ros.ament_python' and name 'example_topic_rclpy'
+[3.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.498s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'example_service_rclcpp' in 'src/example_service_rclcpp'
+[3.499s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'example_topic_rclcpp' in 'src/example_topic_rclcpp'
+[3.500s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'example_topic_rclpy' in 'src/example_topic_rclpy'
+[3.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.533s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/andinm/d2lros2/chapt3/chapt3_ws/install
+[3.540s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/andinm/d2lros2/install
+[3.576s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[3.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.146s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'cmake_args' from command line to 'None'
+[4.146s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'cmake_target' from command line to 'None'
+[4.147s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.147s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'cmake_clean_cache' from command line to 'False'
+[4.147s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'cmake_clean_first' from command line to 'False'
+[4.148s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'cmake_force_configure' from command line to 'False'
+[4.148s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'ament_cmake_args' from command line to 'None'
+[4.148s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'catkin_cmake_args' from command line to 'None'
+[4.148s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclpy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.148s] DEBUG:colcon.colcon_core.verb:Building package 'example_service_rclpy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy', 'merge_install': False, 'path': '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy', 'symlink_install': False, 'test_result_base': None}
+[4.149s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.161s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy' with build type 'ament_python'
+[4.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclpy', 'ament_prefix_path')
+[4.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/hook/ament_prefix_path.ps1'
+[4.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/hook/ament_prefix_path.dsv'
+[4.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/hook/ament_prefix_path.sh'
+[4.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.094s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy'
+[7.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy': PYTHONPATH=/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build install --record /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log --single-version-externally-managed install_data
+[13.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy' returned '0': PYTHONPATH=/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build install --record /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log --single-version-externally-managed install_data
+[13.620s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy' for CMake module files
+[13.627s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy' for CMake config files
+[13.637s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib'
+[13.639s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/bin'
+[13.640s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/pkgconfig/example_service_rclpy.pc'
+[13.642s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages'
+[13.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclpy', 'pythonpath')
+[13.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/hook/pythonpath.ps1'
+[13.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/hook/pythonpath.dsv'
+[13.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/hook/pythonpath.sh'
+[13.664s] Level 1:colcon.colcon_core.environment:checking '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/bin'
+[13.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclpy)
+[13.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/package.ps1'
+[13.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/package.dsv'
+[13.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/package.sh'
+[13.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/package.bash'
+[13.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy/package.zsh'
+[13.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/colcon-core/packages/example_service_rclpy)
+[13.704s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.715s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.780s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.781s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.947s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/local_setup.ps1'
+[13.960s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andinm/d2lros2/chapt3/chapt3_ws/install/_local_setup_util_ps1.py'
+[13.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/setup.ps1'
+[13.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/local_setup.sh'
+[13.988s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andinm/d2lros2/chapt3/chapt3_ws/install/_local_setup_util_sh.py'
+[13.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/setup.sh'
+[14.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/local_setup.bash'
+[14.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/setup.bash'
+[14.028s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/local_setup.zsh'
+[14.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andinm/d2lros2/chapt3/chapt3_ws/install/setup.zsh'

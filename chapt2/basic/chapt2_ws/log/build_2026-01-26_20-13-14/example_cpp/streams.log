@@ -1,0 +1,68 @@
+[0.131s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp
+[1.013s] -- The C compiler identification is GNU 11.4.0
+[1.854s] -- The CXX compiler identification is GNU 11.4.0
+[1.945s] -- Detecting C compiler ABI info
+[3.014s] -- Detecting C compiler ABI info - done
+[3.049s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.050s] -- Detecting C compile features
+[3.056s] -- Detecting C compile features - done
+[3.088s] -- Detecting CXX compiler ABI info
+[4.341s] -- Detecting CXX compiler ABI info - done
+[4.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.389s] -- Detecting CXX compile features
+[4.392s] -- Detecting CXX compile features - done
+[4.428s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.010s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.852s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[7.268s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.301s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.365s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.089s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.108s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.285s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.480s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.025s] -- Looking for pthread.h
+[11.273s] -- Looking for pthread.h - found
+[11.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.485s] -- Found Threads: TRUE  
+[12.914s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.621s] -- Configured cppcheck include dirs: 
+[13.622s] -- Configured cppcheck exclude dirs and/or files: 
+[13.638s] -- Added test 'lint_cmake' to check CMake code style
+[13.653s] -- Added test 'uncrustify' to check C / C++ code style
+[13.653s] -- Configured uncrustify additional arguments: 
+[13.658s] -- Added test 'xmllint' to check XML markup files
+[13.681s] -- Configuring done
+[13.865s] -- Generating done
+[13.895s] -- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp
+[14.027s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp
+[14.037s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp -- -j12 -l12
+[14.970s] [ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[43.008s] [100%] [32m[1mLinking CXX executable node_01[0m
+[44.762s] [100%] Built target node_01
+[44.901s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp -- -j12 -l12
+[45.032s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp
+[45.197s] -- Install configuration: ""
+[45.200s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[45.204s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[45.209s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[45.212s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[45.215s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh
+[45.218s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+[45.224s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash
+[45.226s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh
+[45.231s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+[45.233s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+[45.238s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv
+[45.241s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[45.245s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[45.245s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[45.247s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/share/example_cpp/package.xml
+[45.252s] -- Installing: /home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/lib/example_cpp/node_01
+[45.274s] -- Set runtime path of "/home/andinm/d2lros2/chapt2/basic/chapt2_ws/install/example_cpp/lib/example_cpp/node_01" to ""
+[45.292s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt2/basic/chapt2_ws/build/example_cpp

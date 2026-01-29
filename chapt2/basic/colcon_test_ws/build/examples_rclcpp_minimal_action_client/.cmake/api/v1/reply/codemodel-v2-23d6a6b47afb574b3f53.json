@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7d28a0acb28382c69fff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_minimal_action_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client_member_functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client_member_functions-bb1e35caf01b5a655daf.json",
+					"name" : "action_client_member_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client_not_composable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client_not_composable-87dc14eb8eb0fe86aad8.json",
+					"name" : "action_client_not_composable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client_not_composable_with_cancel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client_not_composable_with_cancel-645bebdd8c68b2f217bd.json",
+					"name" : "action_client_not_composable_with_cancel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client_not_composable_with_feedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client_not_composable_with_feedback-3c122161f534dcdf0fa6.json",
+					"name" : "action_client_not_composable_with_feedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_minimal_action_client_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_minimal_action_client_uninstall-18816011e76b8e307909.json",
+					"name" : "examples_rclcpp_minimal_action_client_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e42bd566cb9f75bacf42.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_action_client",
+		"source" : "/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/actions/minimal_action_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

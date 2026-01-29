@@ -1,0 +1,10 @@
+[0.170s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j12 -l12
+[1.001s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[1.320s] [ 50%] Built target service_server_01
+[1.474s] [100%] Built target service_client_01
+[1.678s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j12 -l12
+[1.834s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp
+[1.982s] -- Install configuration: ""
+[1.993s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[2.016s] -- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[2.048s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp

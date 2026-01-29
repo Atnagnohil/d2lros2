@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/example_service_rclpy/example_service_rclpy.egg-info
+writing ../../build/example_service_rclpy/example_service_rclpy.egg-info/PKG-INFO
+writing dependency_links to ../../build/example_service_rclpy/example_service_rclpy.egg-info/dependency_links.txt
+writing entry points to ../../build/example_service_rclpy/example_service_rclpy.egg-info/entry_points.txt
+writing requirements to ../../build/example_service_rclpy/example_service_rclpy.egg-info/requires.txt
+writing top-level names to ../../build/example_service_rclpy/example_service_rclpy.egg-info/top_level.txt
+writing manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+reading manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+writing manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy
+copying example_service_rclpy/__init__.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy
+copying example_service_rclpy/service_server_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy
+copying example_service_rclpy/service_client_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy
+running install
+running install_lib
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy
+copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy/__init__.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy
+copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy/service_server_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy
+copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build/lib/example_service_rclpy/service_client_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy
+byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy/service_server_02.py to service_server_02.cpython-310.pyc
+byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy/service_client_02.py to service_client_02.cpython-310.pyc
+running install_data
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/ament_index
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/ament_index/resource_index
+creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/ament_index/resource_index/packages
+copying resource/example_service_rclpy -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/ament_index/resource_index/packages
+copying package.xml -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/share/example_service_rclpy
+running install_egg_info
+Copying ../../build/example_service_rclpy/example_service_rclpy.egg-info to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service_client_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy
+Installing service_server_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy
+writing list of installed files to '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log'

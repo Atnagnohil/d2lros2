@@ -1,0 +1,51 @@
+[0.805s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_cbg_executor
+[2.878s] -- The C compiler identification is GNU 11.4.0
+[5.652s] -- The CXX compiler identification is GNU 11.4.0
+[6.058s] -- Detecting C compiler ABI info
+[11.187s] -- Detecting C compiler ABI info - done
+[11.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.324s] -- Detecting C compile features
+[11.334s] -- Detecting C compile features - done
+[11.431s] -- Detecting CXX compiler ABI info
+[16.696s] -- Detecting CXX compiler ABI info - done
+[16.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.844s] -- Detecting CXX compile features
+[16.888s] -- Detecting CXX compile features - done
+[16.966s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.824s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[24.576s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[24.679s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[24.922s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[25.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[26.443s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[26.514s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[29.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[30.287s] -- Found FastRTPS: /opt/ros/humble/include  
+[31.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.554s] -- Looking for pthread.h
+[35.556s] -- Looking for pthread.h - found
+[35.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[39.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[39.950s] -- Found Threads: TRUE  
+[41.157s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[43.871s] -- Added test 'copyright' to check source files copyright and LICENSE
+[43.935s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[43.947s] -- Configured cppcheck include dirs: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor/include
+[43.949s] -- Configured cppcheck exclude dirs and/or files: 
+[44.056s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[44.058s] -- Configured cpplint exclude dirs and/or files: 
+[44.148s] -- Added test 'lint_cmake' to check CMake code style
+[44.333s] -- Added test 'uncrustify' to check C / C++ code style
+[44.342s] -- Configured uncrustify additional arguments: 
+[44.352s] -- Added test 'xmllint' to check XML markup files
+[44.486s] -- Configuring done
+[45.520s] -- Generating done
+[45.603s] -- Build files have been written to: /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_cbg_executor
+[47.164s] Invoked command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/install/examples_rclcpp_cbg_executor
+[47.176s] Invoking command in '/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[50.373s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[140.037s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:76: CMakeFiles/ping.dir/src/ping.cpp.o] 中断
+[140.072s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] 中断
+[140.477s] gmake: *** [Makefile:146: all] 中断

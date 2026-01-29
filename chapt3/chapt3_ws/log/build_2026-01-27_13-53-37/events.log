@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.009835] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.010033] (example_topic_rclpy) JobQueued: {'identifier': 'example_topic_rclpy', 'dependencies': OrderedDict()}
+[0.010804] (example_topic_rclpy) JobStarted: {'identifier': 'example_topic_rclpy'}
+[0.109464] (-) TimerEvent: {}
+[0.210688] (-) TimerEvent: {}
+[0.312680] (-) TimerEvent: {}
+[0.415758] (-) TimerEvent: {}
+[0.519726] (-) TimerEvent: {}
+[0.623925] (-) TimerEvent: {}
+[0.727957] (-) TimerEvent: {}
+[0.830762] (-) TimerEvent: {}
+[0.935838] (-) TimerEvent: {}
+[1.039672] (-) TimerEvent: {}
+[1.142987] (-) TimerEvent: {}
+[1.245879] (-) TimerEvent: {}
+[1.349092] (-) TimerEvent: {}
+[1.452937] (-) TimerEvent: {}
+[1.555606] (-) TimerEvent: {}
+[1.658540] (-) TimerEvent: {}
+[1.761827] (-) TimerEvent: {}
+[1.865101] (-) TimerEvent: {}
+[1.967596] (-) TimerEvent: {}
+[2.070013] (-) TimerEvent: {}
+[2.172905] (-) TimerEvent: {}
+[2.276069] (-) TimerEvent: {}
+[2.378814] (-) TimerEvent: {}
+[2.481718] (-) TimerEvent: {}
+[2.584731] (-) TimerEvent: {}
+[2.687962] (-) TimerEvent: {}
+[2.791869] (-) TimerEvent: {}
+[2.895955] (-) TimerEvent: {}
+[2.999484] (-) TimerEvent: {}
+[3.101614] (-) TimerEvent: {}
+[3.205409] (-) TimerEvent: {}
+[3.307821] (-) TimerEvent: {}
+[3.410403] (-) TimerEvent: {}
+[3.512736] (-) TimerEvent: {}
+[3.615846] (-) TimerEvent: {}
+[3.718882] (-) TimerEvent: {}
+[3.821878] (-) TimerEvent: {}
+[3.924792] (-) TimerEvent: {}
+[4.027576] (-) TimerEvent: {}
+[4.130753] (-) TimerEvent: {}
+[4.235475] (-) TimerEvent: {}
+[4.337722] (-) TimerEvent: {}
+[4.440873] (-) TimerEvent: {}
+[4.544008] (-) TimerEvent: {}
+[4.646811] (-) TimerEvent: {}
+[4.750724] (-) TimerEvent: {}
+[4.853997] (-) TimerEvent: {}
+[4.956915] (-) TimerEvent: {}
+[5.060752] (-) TimerEvent: {}
+[5.163948] (-) TimerEvent: {}
+[5.266941] (-) TimerEvent: {}
+[5.369324] (-) TimerEvent: {}
+[5.471841] (-) TimerEvent: {}
+[5.573734] (-) TimerEvent: {}
+[5.676944] (-) TimerEvent: {}
+[5.781844] (-) TimerEvent: {}
+[5.884980] (-) TimerEvent: {}
+[5.987631] (-) TimerEvent: {}
+[6.090536] (-) TimerEvent: {}
+[6.192722] (-) TimerEvent: {}
+[6.298962] (-) TimerEvent: {}
+[6.308994] (example_topic_rclpy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/example_topic_rclpy', 'build', '--build-base', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build', 'install', '--record', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclpy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'andinm', 'SSH_CLIENT': '192.168.205.1 59855 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/andinm', 'OLDPWD': '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclpy/example_topic_rclpy', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-54cf13d6-9b1a-4001-9192-8de9374162a5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/andinm/d2lros2/chapt3/chapt3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'andinm', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/andinm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-066b280883.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy', 'SSH_CONNECTION': '192.168.205.1 59855 192.168.205.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp'}, 'shell': False}
+[6.400594] (-) TimerEvent: {}
+[6.503653] (-) TimerEvent: {}
+[6.605976] (-) TimerEvent: {}
+[6.709735] (-) TimerEvent: {}
+[6.811861] (-) TimerEvent: {}
+[6.914745] (-) TimerEvent: {}
+[7.018705] (-) TimerEvent: {}
+[7.121887] (-) TimerEvent: {}
+[7.224494] (-) TimerEvent: {}
+[7.326793] (-) TimerEvent: {}
+[7.430086] (-) TimerEvent: {}
+[7.533681] (-) TimerEvent: {}
+[7.636871] (-) TimerEvent: {}
+[7.740091] (-) TimerEvent: {}
+[7.842748] (-) TimerEvent: {}
+[7.945795] (-) TimerEvent: {}
+[8.048973] (-) TimerEvent: {}
+[8.152894] (-) TimerEvent: {}
+[8.255604] (-) TimerEvent: {}
+[8.357763] (-) TimerEvent: {}
+[8.460938] (-) TimerEvent: {}
+[8.563924] (-) TimerEvent: {}
+[8.667053] (-) TimerEvent: {}
+[8.769804] (-) TimerEvent: {}
+[8.872823] (-) TimerEvent: {}
+[8.976708] (-) TimerEvent: {}
+[9.079003] (-) TimerEvent: {}
+[9.123611] (example_topic_rclpy) StdoutLine: {'line': b'running egg_info\n'}
+[9.127188] (example_topic_rclpy) StdoutLine: {'line': b'creating ../../build/example_topic_rclpy/example_topic_rclpy.egg-info\n'}
+[9.128720] (example_topic_rclpy) StdoutLine: {'line': b'writing ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/PKG-INFO\n'}
+[9.131642] (example_topic_rclpy) StdoutLine: {'line': b'writing dependency_links to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/dependency_links.txt\n'}
+[9.136786] (example_topic_rclpy) StdoutLine: {'line': b'writing entry points to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/entry_points.txt\n'}
+[9.137813] (example_topic_rclpy) StdoutLine: {'line': b'writing requirements to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/requires.txt\n'}
+[9.138795] (example_topic_rclpy) StdoutLine: {'line': b'writing top-level names to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/top_level.txt\n'}
+[9.139753] (example_topic_rclpy) StdoutLine: {'line': b"writing manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'\n"}
+[9.154670] (example_topic_rclpy) StdoutLine: {'line': b"reading manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'\n"}
+[9.164505] (example_topic_rclpy) StdoutLine: {'line': b"writing manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'\n"}
+[9.173563] (example_topic_rclpy) StdoutLine: {'line': b'running build\n'}
+[9.174825] (example_topic_rclpy) StdoutLine: {'line': b'running build_py\n'}
+[9.178730] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build\n'}
+[9.181535] (-) TimerEvent: {}
+[9.182511] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib\n'}
+[9.184640] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy\n'}
+[9.185733] (example_topic_rclpy) StdoutLine: {'line': b'copying example_topic_rclpy/__init__.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy\n'}
+[9.186717] (example_topic_rclpy) StdoutLine: {'line': b'copying example_topic_rclpy/topic_publisher_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy\n'}
+[9.188027] (example_topic_rclpy) StdoutLine: {'line': b'copying example_topic_rclpy/topic_subscribe_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy\n'}
+[9.188928] (example_topic_rclpy) StdoutLine: {'line': b'running install\n'}
+[9.192005] (example_topic_rclpy) StdoutLine: {'line': b'running install_lib\n'}
+[9.193500] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy\n'}
+[9.195762] (example_topic_rclpy) StdoutLine: {'line': b'copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/__init__.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy\n'}
+[9.197594] (example_topic_rclpy) StdoutLine: {'line': b'copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/topic_publisher_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy\n'}
+[9.198340] (example_topic_rclpy) StdoutLine: {'line': b'copying /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/topic_subscribe_02.py -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy\n'}
+[9.202482] (example_topic_rclpy) StdoutLine: {'line': b'byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/__init__.py to __init__.cpython-310.pyc\n'}
+[9.204830] (example_topic_rclpy) StdoutLine: {'line': b'byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/topic_publisher_02.py to topic_publisher_02.cpython-310.pyc\n'}
+[9.207378] (example_topic_rclpy) StdoutLine: {'line': b'byte-compiling /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/topic_subscribe_02.py to topic_subscribe_02.cpython-310.pyc\n'}
+[9.209817] (example_topic_rclpy) StdoutLine: {'line': b'running install_data\n'}
+[9.210443] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index\n'}
+[9.211029] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index\n'}
+[9.213641] (example_topic_rclpy) StdoutLine: {'line': b'creating /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index/packages\n'}
+[9.214916] (example_topic_rclpy) StdoutLine: {'line': b'copying resource/example_topic_rclpy -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index/packages\n'}
+[9.215994] (example_topic_rclpy) StdoutLine: {'line': b'copying package.xml -> /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/example_topic_rclpy\n'}
+[9.217588] (example_topic_rclpy) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.225034] (example_topic_rclpy) StdoutLine: {'line': b'Copying ../../build/example_topic_rclpy/example_topic_rclpy.egg-info to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy-0.0.0-py3.10.egg-info\n'}
+[9.237298] (example_topic_rclpy) StdoutLine: {'line': b'running install_scripts\n'}
+[9.283061] (-) TimerEvent: {}
+[9.386796] (-) TimerEvent: {}
+[9.427906] (example_topic_rclpy) StdoutLine: {'line': b'Installing topic_publisher_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/example_topic_rclpy\n'}
+[9.429617] (example_topic_rclpy) StdoutLine: {'line': b'Installing topic_subscribe_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/example_topic_rclpy\n'}
+[9.434941] (example_topic_rclpy) StdoutLine: {'line': b"writing list of installed files to '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log'\n"}
+[9.488666] (-) TimerEvent: {}
+[9.545681] (example_topic_rclpy) CommandEnded: {'returncode': 0}
+[9.590782] (-) TimerEvent: {}
+[9.661704] (example_topic_rclpy) JobEnded: {'identifier': 'example_topic_rclpy', 'rc': 0}
+[9.678529] (-) EventReactorShutdown: {}

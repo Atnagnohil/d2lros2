@@ -1,0 +1,17 @@
+[0.046s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp': CMAKE_PREFIX_PATH=/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp -- -j12 -l12
+[0.331s] [35m[1mConsolidate compiler generated dependencies of target example_interfaces_control_01[0m
+[0.495s] [ 25%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o[0m
+[0.496s] [ 50%] [32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o[0m
+[11.250s] [01m[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_robot_01.cpp:116:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[11.250s]   116 | [01;31m[Kprivate[m[K:
+[11.251s]       | [01;31m[K^~~~~~~[m[K
+[11.251s] [01m[K/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_interfaces_rclcpp/src/example_interfaces_robot_01.cpp:118:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[11.251s]   118 | [01;31m[K}[m[K;
+[11.251s]       | [01;31m[K^[m[K
+[16.186s] gmake[2]: *** [CMakeFiles/example_interfaces_robot_01.dir/build.make:76：CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o] 错误 1
+[16.187s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/example_interfaces_robot_01.dir/all] 错误 2
+[16.187s] gmake[1]: *** 正在等待未完成的任务....
+[35.306s] [ 75%] [32m[1mLinking CXX executable example_interfaces_control_01[0m
+[37.119s] [ 75%] Built target example_interfaces_control_01
+[37.120s] gmake: *** [Makefile:146：all] 错误 2
+[37.130s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp' returned '2': CMAKE_PREFIX_PATH=/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp -- -j12 -l12

@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/ping.dir/build.make:76: CMakeFiles/ping.dir/src/ping.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

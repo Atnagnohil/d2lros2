@@ -1,0 +1,22 @@
+[9.511s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy': PYTHONPATH=/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build install --record /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log --single-version-externally-managed install_data
+[12.275s] running egg_info
+[12.290s] writing ../../build/example_service_rclpy/example_service_rclpy.egg-info/PKG-INFO
+[12.298s] writing dependency_links to ../../build/example_service_rclpy/example_service_rclpy.egg-info/dependency_links.txt
+[12.305s] writing entry points to ../../build/example_service_rclpy/example_service_rclpy.egg-info/entry_points.txt
+[12.308s] writing requirements to ../../build/example_service_rclpy/example_service_rclpy.egg-info/requires.txt
+[12.309s] writing top-level names to ../../build/example_service_rclpy/example_service_rclpy.egg-info/top_level.txt
+[12.319s] reading manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+[12.337s] writing manifest file '../../build/example_service_rclpy/example_service_rclpy.egg-info/SOURCES.txt'
+[12.345s] running build
+[12.349s] running build_py
+[12.356s] running install
+[12.359s] running install_lib
+[12.371s] running install_data
+[12.372s] running install_egg_info
+[12.392s] removing '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info' (and everything under it)
+[12.398s] Copying ../../build/example_service_rclpy/example_service_rclpy.egg-info to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages/example_service_rclpy-0.0.0-py3.10.egg-info
+[12.417s] running install_scripts
+[12.636s] Installing service_client_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy
+[12.636s] Installing service_server_02 script to /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/example_service_rclpy
+[12.637s] writing list of installed files to '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log'
+[12.770s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclpy' returned '0': PYTHONPATH=/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_service_rclpy build --build-base /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/build install --record /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_service_rclpy/install.log --single-version-externally-managed install_data

@@ -1,0 +1,13 @@
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/uninstall.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/examples_rclcpp_minimal_composition_uninstall.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/composition_nodes.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/composition_publisher.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/composition_subscriber.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/composition_composed.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/test.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/edit_cache.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/rebuild_cache.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/list_install_components.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/install.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/install/local.dir
+/home/andinm/d2lros2/chapt2/basic/colcon_test_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/install/strip.dir

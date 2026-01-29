@@ -1,0 +1,13 @@
+[0.096s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12
+[0.859s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.867s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[1.302s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[1.319s] [ 75%] Built target topic_publisher_01
+[42.875s] [100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[44.258s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[44.259s] (.text+0x1b): undefined reference to `main'
+[44.294s] collect2: error: ld returned 1 exit status
+[44.319s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:159：topic_subscribe_01] 错误 1
+[44.324s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[44.328s] gmake: *** [Makefile:146：all] 错误 2
+[44.360s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12

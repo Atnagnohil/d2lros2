@@ -1,0 +1,68 @@
+[0.142s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp
+[1.380s] -- The C compiler identification is GNU 11.4.0
+[2.483s] -- The CXX compiler identification is GNU 11.4.0
+[2.598s] -- Detecting C compiler ABI info
+[4.035s] -- Detecting C compiler ABI info - done
+[4.080s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.086s] -- Detecting C compile features
+[4.093s] -- Detecting C compile features - done
+[4.125s] -- Detecting CXX compiler ABI info
+[5.688s] -- Detecting CXX compiler ABI info - done
+[5.735s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.739s] -- Detecting CXX compile features
+[5.744s] -- Detecting CXX compile features - done
+[5.802s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.722s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.666s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[9.097s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.157s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.263s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.081s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.107s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.496s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.785s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.279s] -- Looking for pthread.h
+[13.478s] -- Looking for pthread.h - found
+[13.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.891s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.900s] -- Found Threads: TRUE  
+[15.360s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.233s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.234s] -- Configured cppcheck include dirs: 
+[16.235s] -- Configured cppcheck exclude dirs and/or files: 
+[16.251s] -- Added test 'lint_cmake' to check CMake code style
+[16.297s] -- Added test 'uncrustify' to check C / C++ code style
+[16.299s] -- Configured uncrustify additional arguments: 
+[16.307s] -- Added test 'xmllint' to check XML markup files
+[16.347s] -- Configuring done
+[16.555s] -- Generating done
+[16.595s] -- Build files have been written to: /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[16.758s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andinm/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp
+[16.793s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12
+[17.810s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[54.731s] [100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[56.651s] [100%] Built target topic_publisher_01
+[56.875s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j12 -l12
+[57.006s] Invoking command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[57.100s] -- Install configuration: ""
+[57.102s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[57.106s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[57.109s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[57.111s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[57.114s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[57.115s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[57.116s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[57.118s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[57.121s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[57.124s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[57.130s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[57.134s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[57.139s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[57.141s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[57.145s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[57.148s] -- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[57.161s] -- Set runtime path of "/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01" to ""
+[57.176s] Invoked command in '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andinm/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp

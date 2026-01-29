@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target example_interfaces_robot_01[0m
+[35m[1mConsolidate compiler generated dependencies of target example_interfaces_control_01[0m
+[ 50%] Built target example_interfaces_robot_01
+[ 75%] [32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o[0m

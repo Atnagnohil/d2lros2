@@ -1,0 +1,488 @@
+[0.000000] (-) TimerEvent: {}
+[0.000954] (-) JobUnselected: {'identifier': 'example_service_rclcpp'}
+[0.003633] (-) JobUnselected: {'identifier': 'example_service_rclpy'}
+[0.003926] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.004005] (-) JobUnselected: {'identifier': 'example_topic_rclpy'}
+[0.004185] (example_ros2_interfaces) JobQueued: {'identifier': 'example_ros2_interfaces', 'dependencies': OrderedDict()}
+[0.004376] (example_interfaces_rclcpp) JobQueued: {'identifier': 'example_interfaces_rclcpp', 'dependencies': OrderedDict([('example_ros2_interfaces', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces')])}
+[0.004546] (example_ros2_interfaces) JobStarted: {'identifier': 'example_ros2_interfaces'}
+[0.043804] (example_ros2_interfaces) JobProgress: {'identifier': 'example_ros2_interfaces', 'progress': 'cmake'}
+[0.057022] (example_ros2_interfaces) JobProgress: {'identifier': 'example_ros2_interfaces', 'progress': 'build'}
+[0.057354] (example_ros2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 55545 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03453085-fba8-49c1-8b9c-bf126af8cc56.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066b280883.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces'), ('SSH_CONNECTION', '192.168.205.1 55545 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble')]), 'shell': False}
+[0.099963] (-) TimerEvent: {}
+[0.201271] (-) TimerEvent: {}
+[0.302199] (-) TimerEvent: {}
+[0.309627] (example_ros2_interfaces) StdoutLine: {'line': b'[  2%] Built target example_ros2_interfaces__cpp\n'}
+[0.312186] (example_ros2_interfaces) StdoutLine: {'line': b'[ 12%] Built target example_ros2_interfaces__rosidl_generator_c\n'}
+[0.347915] (example_ros2_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_example_ros2_interfaces\n'}
+[0.402609] (-) TimerEvent: {}
+[0.407165] (example_ros2_interfaces) StdoutLine: {'line': b'[ 23%] Built target example_ros2_interfaces__rosidl_typesupport_cpp\n'}
+[0.410247] (example_ros2_interfaces) StdoutLine: {'line': b'[ 34%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.412651] (example_ros2_interfaces) StdoutLine: {'line': b'[ 44%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.452238] (example_ros2_interfaces) StdoutLine: {'line': b'[ 55%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.456203] (example_ros2_interfaces) StdoutLine: {'line': b'[ 65%] Built target example_ros2_interfaces__rosidl_typesupport_c\n'}
+[0.458941] (example_ros2_interfaces) StdoutLine: {'line': b'[ 76%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.503223] (-) TimerEvent: {}
+[0.572991] (example_ros2_interfaces) StdoutLine: {'line': b'[ 76%] Built target example_ros2_interfaces\n'}
+[0.603960] (-) TimerEvent: {}
+[0.692564] (example_ros2_interfaces) StdoutLine: {'line': b'[ 78%] Built target example_ros2_interfaces__py\n'}
+[0.704231] (-) TimerEvent: {}
+[0.805170] (-) TimerEvent: {}
+[0.822299] (example_ros2_interfaces) StdoutLine: {'line': b'[ 87%] Built target example_ros2_interfaces__rosidl_generator_py\n'}
+[0.906157] (-) TimerEvent: {}
+[0.933499] (example_ros2_interfaces) StdoutLine: {'line': b'[ 93%] Built target example_ros2_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.934199] (example_ros2_interfaces) StdoutLine: {'line': b'[ 97%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.934781] (example_ros2_interfaces) StdoutLine: {'line': b'[100%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.006387] (-) TimerEvent: {}
+[1.108163] (-) TimerEvent: {}
+[1.209980] (-) TimerEvent: {}
+[1.294001] (example_ros2_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.295550] (example_ros2_interfaces) StdoutLine: {'line': b'writing example_ros2_interfaces.egg-info/PKG-INFO\n'}
+[1.296610] (example_ros2_interfaces) StdoutLine: {'line': b'writing dependency_links to example_ros2_interfaces.egg-info/dependency_links.txt\n'}
+[1.297335] (example_ros2_interfaces) StdoutLine: {'line': b'writing top-level names to example_ros2_interfaces.egg-info/top_level.txt\n'}
+[1.305808] (example_ros2_interfaces) StdoutLine: {'line': b"reading manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'\n"}
+[1.308315] (example_ros2_interfaces) StdoutLine: {'line': b"writing manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'\n"}
+[1.310331] (-) TimerEvent: {}
+[1.397399] (example_ros2_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_example_ros2_interfaces_egg\n'}
+[1.411126] (-) TimerEvent: {}
+[1.445338] (example_ros2_interfaces) CommandEnded: {'returncode': 0}
+[1.447907] (example_ros2_interfaces) JobProgress: {'identifier': 'example_ros2_interfaces', 'progress': 'install'}
+[1.486690] (example_ros2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 55545 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03453085-fba8-49c1-8b9c-bf126af8cc56.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066b280883.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_ros2_interfaces'), ('SSH_CONNECTION', '192.168.205.1 55545 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble')]), 'shell': False}
+[1.511615] (-) TimerEvent: {}
+[1.524482] (example_ros2_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.526837] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_ros2_interfaces\n'}
+[1.527536] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.528453] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.528754] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.529155] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.h\n'}
+[1.530093] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.h\n'}
+[1.530606] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.h\n'}
+[1.530855] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.h\n'}
+[1.531806] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.h\n'}
+[1.532121] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.c\n'}
+[1.532759] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.h\n'}
+[1.533596] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.c\n'}
+[1.533988] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.h\n'}
+[1.534373] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.534618] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.h\n'}
+[1.534842] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.535299] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.535564] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.h\n'}
+[1.535800] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.h\n'}
+[1.535988] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.c\n'}
+[1.536117] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.h\n'}
+[1.536233] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.h\n'}
+[1.536443] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.sh\n'}
+[1.536652] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.dsv\n'}
+[1.536992] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_c.so\n'}
+[1.537862] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.538430] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.539209] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.539783] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.540029] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.540502] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.540746] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.541550] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.542025] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[1.542239] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.542386] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.542524] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.542736] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.542881] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.543208] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[1.543431] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.c\n'}
+[1.544811] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.545007] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.c\n'}
+[1.545311] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.545548] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.545902] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h\n'}
+[1.546636] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.c\n'}
+[1.547151] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.547459] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_c.so\n'}
+[1.547703] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.548453] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.548893] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.549386] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.hpp\n'}
+[1.549634] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.550369] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__traits.hpp\n'}
+[1.550643] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.hpp\n'}
+[1.550861] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__builder.hpp\n'}
+[1.551592] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__builder.hpp\n'}
+[1.551978] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.hpp\n'}
+[1.552460] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.hpp\n'}
+[1.552693] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.hpp\n'}
+[1.552906] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__traits.hpp\n'}
+[1.553527] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.hpp\n'}
+[1.553902] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.554327] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.555277] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__traits.hpp\n'}
+[1.555580] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.hpp\n'}
+[1.555802] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__builder.hpp\n'}
+[1.556010] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.hpp\n'}
+[1.556264] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.hpp\n'}
+[1.556477] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.557324] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.557790] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.558117] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.559752] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.560004] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/dds_fastrtps\n'}
+[1.560276] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.560517] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.560730] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.560938] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.561357] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/dds_fastrtps\n'}
+[1.561724] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.561958] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces\n'}
+[1.562351] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg\n'}
+[1.562588] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail\n'}
+[1.562802] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.562997] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.563341] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.cpp\n'}
+[1.563599] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.cpp\n'}
+[1.563848] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv\n'}
+[1.564097] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail\n'}
+[1.564335] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.564563] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.cpp\n'}
+[1.564772] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.565126] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.565662] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.sh\n'}
+[1.565892] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.dsv\n'}
+[1.566155] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.566376] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.566583] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.566804] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.567019] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.567680] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces\n'}
+[1.567922] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/__init__.py\n'}
+[1.568179] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/libexample_ros2_interfaces__rosidl_generator_py.so\n'}
+[1.568410] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.568555] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.568724] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.568902] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.569152] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg\n'}
+[1.569434] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/__init__.py\n'}
+[1.569676] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status_s.c\n'}
+[1.569887] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose.py\n'}
+[1.570159] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_pose_s.c\n'}
+[1.570387] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg/_robot_status.py\n'}
+[1.570592] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.570799] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.571004] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv\n'}
+[1.571563] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/__init__.py\n'}
+[1.571895] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot_s.c\n'}
+[1.572377] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv/_move_robot.py\n'}
+[1.611810] (-) TimerEvent: {}
+[1.672802] (example_ros2_interfaces) StdoutLine: {'line': b"Listing '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces'...\n"}
+[1.673522] (example_ros2_interfaces) StdoutLine: {'line': b"Listing '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/msg'...\n"}
+[1.673793] (example_ros2_interfaces) StdoutLine: {'line': b"Listing '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/srv'...\n"}
+[1.685539] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.687351] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.688512] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.689710] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_py.so\n'}
+[1.690346] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.idl\n'}
+[1.690897] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.idl\n'}
+[1.691007] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.idl\n'}
+[1.691401] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.msg\n'}
+[1.692255] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.msg\n'}
+[1.692621] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.srv\n'}
+[1.692836] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot_Request.msg\n'}
+[1.693070] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot_Response.msg\n'}
+[1.693314] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/example_ros2_interfaces\n'}
+[1.693674] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/example_ros2_interfaces\n'}
+[1.694550] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.sh\n'}
+[1.695325] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.695659] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.sh\n'}
+[1.696112] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.dsv\n'}
+[1.696397] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.bash\n'}
+[1.696953] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.sh\n'}
+[1.697153] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.zsh\n'}
+[1.697344] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.dsv\n'}
+[1.697614] (example_ros2_interfaces) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv\n'}
+[1.697997] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/ament_index/resource_index/packages/example_ros2_interfaces\n'}
+[1.698501] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.699197] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.700069] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.700680] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.701211] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.701751] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.702332] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.702598] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.702933] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.703810] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.704115] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.704350] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.704562] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.704771] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.705021] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.705405] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.705628] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.705837] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.706076] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.706561] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.707597] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.709809] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.710976] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.713560] (-) TimerEvent: {}
+[1.714106] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.714409] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig.cmake\n'}
+[1.714786] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig-version.cmake\n'}
+[1.715531] (example_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.xml\n'}
+[1.716214] (example_ros2_interfaces) CommandEnded: {'returncode': 0}
+[1.798212] (example_ros2_interfaces) JobEnded: {'identifier': 'example_ros2_interfaces', 'rc': 0}
+[1.802253] (example_interfaces_rclcpp) JobStarted: {'identifier': 'example_interfaces_rclcpp'}
+[1.814142] (-) TimerEvent: {}
+[1.838250] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'cmake'}
+[1.842582] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'build'}
+[1.844240] (example_interfaces_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp', '--', '-j12', '-l12'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 55545 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03453085-fba8-49c1-8b9c-bf126af8cc56.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066b280883.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp'), ('SSH_CONNECTION', '192.168.205.1 55545 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble')]), 'shell': False}
+[1.914593] (-) TimerEvent: {}
+[2.015581] (-) TimerEvent: {}
+[2.028360] (example_interfaces_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_interfaces_robot_01\x1b[0m\n'}
+[2.029574] (example_interfaces_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_interfaces_control_01\x1b[0m\n'}
+[2.108766] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 50%] Built target example_interfaces_control_01\n'}
+[2.111309] (example_interfaces_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o\x1b[0m\n'}
+[2.116310] (-) TimerEvent: {}
+[2.217177] (-) TimerEvent: {}
+[2.318704] (-) TimerEvent: {}
+[2.420024] (-) TimerEvent: {}
+[2.521218] (-) TimerEvent: {}
+[2.622942] (-) TimerEvent: {}
+[2.724184] (-) TimerEvent: {}
+[2.825396] (-) TimerEvent: {}
+[2.926244] (-) TimerEvent: {}
+[3.028898] (-) TimerEvent: {}
+[3.130383] (-) TimerEvent: {}
+[3.231630] (-) TimerEvent: {}
+[3.332598] (-) TimerEvent: {}
+[3.434725] (-) TimerEvent: {}
+[3.536905] (-) TimerEvent: {}
+[3.638435] (-) TimerEvent: {}
+[3.739471] (-) TimerEvent: {}
+[3.841150] (-) TimerEvent: {}
+[3.942634] (-) TimerEvent: {}
+[4.045283] (-) TimerEvent: {}
+[4.146398] (-) TimerEvent: {}
+[4.247270] (-) TimerEvent: {}
+[4.348549] (-) TimerEvent: {}
+[4.451485] (-) TimerEvent: {}
+[4.553475] (-) TimerEvent: {}
+[4.656304] (-) TimerEvent: {}
+[4.758816] (-) TimerEvent: {}
+[4.859906] (-) TimerEvent: {}
+[4.961545] (-) TimerEvent: {}
+[5.063352] (-) TimerEvent: {}
+[5.165481] (-) TimerEvent: {}
+[5.266923] (-) TimerEvent: {}
+[5.368029] (-) TimerEvent: {}
+[5.470326] (-) TimerEvent: {}
+[5.571570] (-) TimerEvent: {}
+[5.674303] (-) TimerEvent: {}
+[5.775339] (-) TimerEvent: {}
+[5.876274] (-) TimerEvent: {}
+[5.977747] (-) TimerEvent: {}
+[6.079201] (-) TimerEvent: {}
+[6.180039] (-) TimerEvent: {}
+[6.281177] (-) TimerEvent: {}
+[6.382251] (-) TimerEvent: {}
+[6.483482] (-) TimerEvent: {}
+[6.584905] (-) TimerEvent: {}
+[6.687437] (-) TimerEvent: {}
+[6.789406] (-) TimerEvent: {}
+[6.890301] (-) TimerEvent: {}
+[6.991340] (-) TimerEvent: {}
+[7.092710] (-) TimerEvent: {}
+[7.193664] (-) TimerEvent: {}
+[7.294842] (-) TimerEvent: {}
+[7.396260] (-) TimerEvent: {}
+[7.497262] (-) TimerEvent: {}
+[7.598504] (-) TimerEvent: {}
+[7.700304] (-) TimerEvent: {}
+[7.802345] (-) TimerEvent: {}
+[7.905341] (-) TimerEvent: {}
+[8.006726] (-) TimerEvent: {}
+[8.109348] (-) TimerEvent: {}
+[8.210420] (-) TimerEvent: {}
+[8.312239] (-) TimerEvent: {}
+[8.413169] (-) TimerEvent: {}
+[8.514605] (-) TimerEvent: {}
+[8.616007] (-) TimerEvent: {}
+[8.717297] (-) TimerEvent: {}
+[8.819294] (-) TimerEvent: {}
+[8.921491] (-) TimerEvent: {}
+[9.022625] (-) TimerEvent: {}
+[9.123591] (-) TimerEvent: {}
+[9.224967] (-) TimerEvent: {}
+[9.326261] (-) TimerEvent: {}
+[9.427676] (-) TimerEvent: {}
+[9.528727] (-) TimerEvent: {}
+[9.630163] (-) TimerEvent: {}
+[9.731217] (-) TimerEvent: {}
+[9.833214] (-) TimerEvent: {}
+[9.934431] (-) TimerEvent: {}
+[10.035506] (-) TimerEvent: {}
+[10.137148] (-) TimerEvent: {}
+[10.239297] (-) TimerEvent: {}
+[10.340321] (-) TimerEvent: {}
+[10.441204] (-) TimerEvent: {}
+[10.542170] (-) TimerEvent: {}
+[10.644293] (-) TimerEvent: {}
+[10.746787] (-) TimerEvent: {}
+[10.850151] (-) TimerEvent: {}
+[10.953342] (-) TimerEvent: {}
+[11.058108] (-) TimerEvent: {}
+[11.159719] (-) TimerEvent: {}
+[11.262613] (-) TimerEvent: {}
+[11.365593] (-) TimerEvent: {}
+[11.469341] (-) TimerEvent: {}
+[11.570232] (-) TimerEvent: {}
+[11.671299] (-) TimerEvent: {}
+[11.772179] (-) TimerEvent: {}
+[11.876365] (-) TimerEvent: {}
+[11.980796] (-) TimerEvent: {}
+[12.086653] (-) TimerEvent: {}
+[12.190275] (-) TimerEvent: {}
+[12.292698] (-) TimerEvent: {}
+[12.395937] (-) TimerEvent: {}
+[12.499687] (-) TimerEvent: {}
+[12.601307] (-) TimerEvent: {}
+[12.704805] (-) TimerEvent: {}
+[12.805756] (-) TimerEvent: {}
+[12.916353] (-) TimerEvent: {}
+[13.017655] (-) TimerEvent: {}
+[13.121040] (-) TimerEvent: {}
+[13.224225] (-) TimerEvent: {}
+[13.325028] (-) TimerEvent: {}
+[13.426542] (-) TimerEvent: {}
+[13.529778] (-) TimerEvent: {}
+[13.633516] (-) TimerEvent: {}
+[13.734796] (-) TimerEvent: {}
+[13.837992] (-) TimerEvent: {}
+[13.942381] (-) TimerEvent: {}
+[14.044373] (-) TimerEvent: {}
+[14.145229] (-) TimerEvent: {}
+[14.248424] (-) TimerEvent: {}
+[14.353337] (-) TimerEvent: {}
+[14.462689] (-) TimerEvent: {}
+[14.565781] (-) TimerEvent: {}
+[14.668688] (-) TimerEvent: {}
+[14.771477] (-) TimerEvent: {}
+[14.872676] (-) TimerEvent: {}
+[14.977696] (-) TimerEvent: {}
+[15.081888] (-) TimerEvent: {}
+[15.186277] (-) TimerEvent: {}
+[15.287233] (-) TimerEvent: {}
+[15.388762] (-) TimerEvent: {}
+[15.490125] (-) TimerEvent: {}
+[15.591183] (-) TimerEvent: {}
+[15.695209] (-) TimerEvent: {}
+[15.796938] (-) TimerEvent: {}
+[15.899454] (-) TimerEvent: {}
+[16.000878] (-) TimerEvent: {}
+[16.104820] (-) TimerEvent: {}
+[16.207234] (-) TimerEvent: {}
+[16.307968] (-) TimerEvent: {}
+[16.409183] (-) TimerEvent: {}
+[16.514360] (-) TimerEvent: {}
+[16.616089] (-) TimerEvent: {}
+[16.719413] (-) TimerEvent: {}
+[16.828598] (-) TimerEvent: {}
+[16.930403] (-) TimerEvent: {}
+[17.038854] (-) TimerEvent: {}
+[17.142267] (-) TimerEvent: {}
+[17.245987] (-) TimerEvent: {}
+[17.348899] (-) TimerEvent: {}
+[17.451918] (-) TimerEvent: {}
+[17.555974] (-) TimerEvent: {}
+[17.658689] (-) TimerEvent: {}
+[17.761794] (-) TimerEvent: {}
+[17.863269] (-) TimerEvent: {}
+[17.964810] (-) TimerEvent: {}
+[18.066881] (-) TimerEvent: {}
+[18.167858] (-) TimerEvent: {}
+[18.269712] (-) TimerEvent: {}
+[18.371416] (-) TimerEvent: {}
+[18.473835] (-) TimerEvent: {}
+[18.575265] (-) TimerEvent: {}
+[18.676944] (-) TimerEvent: {}
+[18.778567] (-) TimerEvent: {}
+[18.880485] (-) TimerEvent: {}
+[18.981966] (-) TimerEvent: {}
+[19.083515] (-) TimerEvent: {}
+[19.184967] (-) TimerEvent: {}
+[19.285970] (-) TimerEvent: {}
+[19.387789] (-) TimerEvent: {}
+[19.488936] (-) TimerEvent: {}
+[19.591263] (-) TimerEvent: {}
+[19.693602] (-) TimerEvent: {}
+[19.795281] (-) TimerEvent: {}
+[19.896856] (-) TimerEvent: {}
+[19.998847] (-) TimerEvent: {}
+[20.100423] (-) TimerEvent: {}
+[20.202159] (-) TimerEvent: {}
+[20.302835] (-) TimerEvent: {}
+[20.404180] (-) TimerEvent: {}
+[20.505305] (-) TimerEvent: {}
+[20.607120] (-) TimerEvent: {}
+[20.707999] (-) TimerEvent: {}
+[20.809192] (-) TimerEvent: {}
+[20.911349] (-) TimerEvent: {}
+[21.013216] (-) TimerEvent: {}
+[21.114602] (-) TimerEvent: {}
+[21.215864] (-) TimerEvent: {}
+[21.317288] (-) TimerEvent: {}
+[21.419190] (-) TimerEvent: {}
+[21.520518] (-) TimerEvent: {}
+[21.621550] (-) TimerEvent: {}
+[21.724796] (-) TimerEvent: {}
+[21.826730] (-) TimerEvent: {}
+[21.927432] (-) TimerEvent: {}
+[22.029601] (-) TimerEvent: {}
+[22.131767] (-) TimerEvent: {}
+[22.233414] (-) TimerEvent: {}
+[22.334457] (-) TimerEvent: {}
+[22.437923] (-) TimerEvent: {}
+[22.541421] (-) TimerEvent: {}
+[22.642350] (-) TimerEvent: {}
+[22.743381] (-) TimerEvent: {}
+[22.844127] (-) TimerEvent: {}
+[22.946173] (-) TimerEvent: {}
+[23.047257] (-) TimerEvent: {}
+[23.065891] (example_interfaces_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_interfaces_robot_01\x1b[0m\n'}
+[23.148363] (-) TimerEvent: {}
+[23.249828] (-) TimerEvent: {}
+[23.352237] (-) TimerEvent: {}
+[23.454927] (-) TimerEvent: {}
+[23.556364] (-) TimerEvent: {}
+[23.660394] (-) TimerEvent: {}
+[23.764277] (-) TimerEvent: {}
+[23.868255] (-) TimerEvent: {}
+[23.969899] (-) TimerEvent: {}
+[24.065064] (example_interfaces_rclcpp) StdoutLine: {'line': b'[100%] Built target example_interfaces_robot_01\n'}
+[24.071561] (-) TimerEvent: {}
+[24.117172] (example_interfaces_rclcpp) CommandEnded: {'returncode': 0}
+[24.118030] (example_interfaces_rclcpp) JobProgress: {'identifier': 'example_interfaces_rclcpp', 'progress': 'install'}
+[24.122495] (example_interfaces_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp'], 'cwd': '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'andinm'), ('SSH_CLIENT', '192.168.205.1 55545 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/andinm'), ('OLDPWD', '/home/andinm/d2lros2'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03453085-fba8-49c1-8b9c-bf126af8cc56.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andinm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andinm/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066b280883.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/andinm/d2lros2/chapt3/chapt3_ws/build/example_interfaces_rclcpp'), ('SSH_CONNECTION', '192.168.205.1 55545 192.168.205.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy/lib/python3.10/site-packages:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_ros2_interfaces:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy:/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_service_rclpy:/opt/ros/humble')]), 'shell': False}
+[24.168587] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.169151] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01\n'}
+[24.172394] (-) TimerEvent: {}
+[24.177408] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_robot_01" to ""\n'}
+[24.177898] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control_01\n'}
+[24.192242] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/lib/example_interfaces_rclcpp/example_interfaces_control_01" to ""\n'}
+[24.192777] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_interfaces_rclcpp\n'}
+[24.193076] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_interfaces_rclcpp\n'}
+[24.193911] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.sh\n'}
+[24.194221] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/ament_prefix_path.dsv\n'}
+[24.194504] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.sh\n'}
+[24.194735] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/environment/path.dsv\n'}
+[24.194971] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.bash\n'}
+[24.195326] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.sh\n'}
+[24.195574] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.zsh\n'}
+[24.195789] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/local_setup.dsv\n'}
+[24.195998] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Installing: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.dsv\n'}
+[24.197859] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/ament_index/resource_index/packages/example_interfaces_rclcpp\n'}
+[24.198288] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig.cmake\n'}
+[24.198537] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/cmake/example_interfaces_rclcppConfig-version.cmake\n'}
+[24.198763] (example_interfaces_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/andinm/d2lros2/chapt3/chapt3_ws/install/example_interfaces_rclcpp/share/example_interfaces_rclcpp/package.xml\n'}
+[24.205881] (example_interfaces_rclcpp) CommandEnded: {'returncode': 0}
+[24.271470] (example_interfaces_rclcpp) JobEnded: {'identifier': 'example_interfaces_rclcpp', 'rc': 0}
+[24.273947] (-) TimerEvent: {}
+[24.274538] (-) EventReactorShutdown: {}

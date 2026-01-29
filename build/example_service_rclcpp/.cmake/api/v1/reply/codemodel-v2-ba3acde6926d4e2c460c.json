@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6ac3c31af7b263864c48.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_service_rclcpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_service_rclcpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_service_rclcpp_uninstall-3e5185f87bffc509b55f.json",
+					"name" : "example_service_rclcpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_client_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_client_01-4a04142663c42be8d37c.json",
+					"name" : "service_client_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_server_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_server_01-e0f72a491aecbce3f344.json",
+					"name" : "service_server_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a38e91c5a894ab4ab796.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andinm/d2lros2/build/example_service_rclcpp",
+		"source" : "/home/andinm/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
